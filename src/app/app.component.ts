@@ -1,4 +1,6 @@
+import { Digimon } from './lib/Digimon';
 import { Component } from '@angular/core';
+import { ALL_DIGIMON } from './lib/constants/DigimonConstants';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'digimon-story-digidex';
+  digimons: Digimon[] = ALL_DIGIMON;
 }
