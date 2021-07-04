@@ -7,4 +7,5 @@ export enum Stage {
 	Mega,
 	Ultra,
 	Armor,
+	Unknown
 }

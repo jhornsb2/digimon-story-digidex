@@ -50,4 +50,4 @@ Thumbs.db
 
 #Generatable Data
 /data-puller/output.json
-
+/data-puller/output-converted.ts
