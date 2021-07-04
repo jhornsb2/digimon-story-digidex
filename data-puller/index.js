@@ -10,10 +10,13 @@ const fs = require('fs');
         const digimonLinks = await driver.findElements(By.css("a[href^='https://www.grindosaur.com/en/games/digimon/digimon-story-cyber-sleuth/digimon/']"));
         //get all the urls from the links
         const digimonUrls = await Promise.all(digimonLinks.map(e => e.getAttribute('href')));
-        const digimonData = await Promise.all(digimonUrls.map(async (url, index) => {
+        const digimonData = {};
+
+        for (let i = 0; i < digimonUrls.length; i++) {
+            const url = digimonUrls[i];
             await driver.navigate().to(url.toString());
             let result = {};
-            result.fieldGuideNumber = index + 1;
+            result.fieldGuideNumber = url.substring(url.lastIndexOf('/') + 1).split('-')[0];
             let infoTableCells = await driver.findElements(By.css('.quick-facts-box div table.info-table tbody tr td'));
             result.name = await infoTableCells[0].getText();
             result.stage = await infoTableCells[1].getText();
@@ -30,8 +33,8 @@ const fs = require('fs');
             };
             result.digivolvesFrom = [];
             result.digivolvesTo = [];
-            return result;
-        }));
+            digimonData[result.name.toUpperCase()] = result;
+        }
         
         fs.writeFile('output.json', JSON.stringify(digimonData, null, '\t'), function (err) {
             if (err) console.log(err);
