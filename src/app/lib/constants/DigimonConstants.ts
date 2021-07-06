@@ -4778,6 +4778,300 @@ digivolvesTo(WANYAMON, RYUDAMON);
 //#endregion
 
 //#region Rookie to Champion
+digivolvesTo(AGUMON, AGUNIMON);
+digivolvesTo(AGUMON, GREYMON);
+digivolvesTo(AGUMON, GEOGREYMON);
+digivolvesTo(AGUMON, SUKAMON);
+digivolvesTo(AGUMON, TYRANNOMON);
+digivolvesTo(AGUMON, MERAMON);
+
+digivolvesTo(AGUMON_BLK, GROWLMON);
+digivolvesTo(AGUMON_BLK, GREYMON_BLUE);
+digivolvesTo(AGUMON_BLK, CYCLONEMON);
+digivolvesTo(AGUMON_BLK, TANKMON);
+digivolvesTo(AGUMON_BLK, TYRANNOMON);
+digivolvesTo(AGUMON_BLK, MONOCHROMON);
+
+digivolvesTo(ARCADIAMON_ROOKIE, ARCADIAMON_CHAMPION);
+digivolvesTo(ARCADIAMON_ROOKIE, KURISARIMON);
+digivolvesTo(ARCADIAMON_ROOKIE, LEOMON);
+
+digivolvesTo(ARMADILLOMON, ANKYLOMON);
+digivolvesTo(ARMADILLOMON, GEREMON);
+digivolvesTo(ARMADILLOMON, GOLDNUMEMON);
+digivolvesTo(ARMADILLOMON, GOLEMON);
+digivolvesTo(ARMADILLOMON, CYCLONEMON);
+digivolvesTo(ARMADILLOMON, TANKMON);
+
+digivolvesTo(IMPMON, ICEDEVIMON);
+digivolvesTo(IMPMON, WIZARDMON);
+digivolvesTo(IMPMON, OGREMON);
+digivolvesTo(IMPMON, SOCERIMON);
+digivolvesTo(IMPMON, BAKEMON);
+digivolvesTo(IMPMON, BLACKGATOMON);
+
+digivolvesTo(ELECMON, GARURUMON);
+digivolvesTo(ELECMON, GARURUMON_BLK);
+digivolvesTo(ELECMON, GEREMON);
+digivolvesTo(ELECMON, SUKAMON);
+digivolvesTo(ELECMON, NANIMON);
+digivolvesTo(ELECMON, LEOMON);
+
+digivolvesTo(OTAMAMON, SHELLNUMEMON);
+digivolvesTo(OTAMAMON, GEKOMON);
+digivolvesTo(OTAMAMON, SEADRAMON);
+digivolvesTo(OTAMAMON, COELAMON);
+digivolvesTo(OTAMAMON, NUMEMON);
+digivolvesTo(OTAMAMON, RAREMON);
+
+digivolvesTo(GAOMON, OGREMON);
+digivolvesTo(GAOMON, GAOGAMON);
+digivolvesTo(GAOMON, GARGOMON);
+digivolvesTo(GAOMON, SANGLOUPMON);
+digivolvesTo(GAOMON, TOGEMON);
+digivolvesTo(GAOMON, LEOMON);
+
+digivolvesTo(GAZIMON, GAOGAMON);
+digivolvesTo(GAZIMON, GARURUMON_BLK);
+digivolvesTo(GAZIMON, KURISARIMON);
+digivolvesTo(GAZIMON, DORUGAMON);
+digivolvesTo(GAZIMON, NANIMON);
+digivolvesTo(GAZIMON, LEOMON);
+
+digivolvesTo(GABUMON, LOBOMON);
+digivolvesTo(GABUMON, GARURUMON);
+digivolvesTo(GABUMON, DORUGAMON);
+digivolvesTo(GABUMON, NUMEMON);
+digivolvesTo(GABUMON, VEEDRAMON);
+digivolvesTo(GABUMON, FRIGIMON);
+
+digivolvesTo(GABUMON_BLK, GARURUMON_BLK);
+digivolvesTo(GABUMON_BLK, VEGIEMON);
+digivolvesTo(GABUMON_BLK, FRIGIMON);
+digivolvesTo(GABUMON_BLK, RAREMON);
+digivolvesTo(GABUMON_BLK, REPPAMON);
+
+digivolvesTo(GUILMON, AGUNIMON);
+digivolvesTo(GUILMON, GROWLMON);
+digivolvesTo(GUILMON, GREYMON_BLUE);
+digivolvesTo(GUILMON, GEOGREYMON);
+digivolvesTo(GUILMON, TYRANNOMON);
+digivolvesTo(GUILMON, MERAMON);
+
+digivolvesTo(KUDAMON, LOBOMON);
+digivolvesTo(KUDAMON, ANGEMON);
+digivolvesTo(KUDAMON, GOLDNUMEMON);
+digivolvesTo(KUDAMON, PECKMON);
+digivolvesTo(KUDAMON, REPPAMON);
+
+digivolvesTo(KERAMON, ARCADIAMON_CHAMPION);
+digivolvesTo(KERAMON, WIZARDMON);
+digivolvesTo(KERAMON, KURISARIMON);
+digivolvesTo(KERAMON, BAKEMON);
+digivolvesTo(KERAMON, PLATINUMSUKAMON);
+
+digivolvesTo(GOTSUMON, ICEMON);
+digivolvesTo(GOTSUMON, ANKYLOMON);
+digivolvesTo(GOTSUMON, CLOCKMON);
+digivolvesTo(GOTSUMON, GOLEMON);
+digivolvesTo(GOTSUMON, STARMON);
+digivolvesTo(GOTSUMON, TANKMON);
+
+digivolvesTo(GOBLIMON, OGREMON);
+digivolvesTo(GOBLIMON, GAOGAMON);
+digivolvesTo(GOBLIMON, GROWLMON);
+digivolvesTo(GOBLIMON, GREYMON_BLUE);
+digivolvesTo(GOBLIMON, COREDRAMON_GREEN);
+digivolvesTo(GOBLIMON, NANIMON);
+
+digivolvesTo(GOMAMON, ICEMON);
+digivolvesTo(GOMAMON, ANKYLOMON);
+digivolvesTo(GOMAMON, IKKAKUMON);
+digivolvesTo(GOMAMON, STRIKEDRAMON);
+digivolvesTo(GOMAMON, SOCERIMON);
+digivolvesTo(GOMAMON, FRIGIMON);
+
+digivolvesTo(SYAKOMON, IKKAKUMON);
+digivolvesTo(SYAKOMON, SHELLNUMEMON);
+digivolvesTo(SYAKOMON, GEKOMON);
+digivolvesTo(SYAKOMON, SEADRAMON);
+digivolvesTo(SYAKOMON, COELAMON);
+
+digivolvesTo(ZUBAMON, GOLDNUMEMON);
+digivolvesTo(ZUBAMON, ZUBAEAGERMON);
+digivolvesTo(ZUBAMON, BAOHUCKMON);
+digivolvesTo(ZUBAMON, GINRYUMON);
+
+digivolvesTo(SOLARMON, GUARDROMON_GOLD);
+digivolvesTo(SOLARMON, CLOCKMON);
+digivolvesTo(SOLARMON, GEREMON);
+digivolvesTo(SOLARMON, GOLEMON);
+digivolvesTo(SOLARMON, STARMON);
+digivolvesTo(SOLARMON, MERAMON);
+
+digivolvesTo(CHUUMON, SUKAMON);
+digivolvesTo(CHUUMON, NANIMON);
+digivolvesTo(CHUUMON, BLACKGATOMON);
+digivolvesTo(CHUUMON, RAREMON);
+
+digivolvesTo(TERRIERMON, IKKAKUMON);
+digivolvesTo(TERRIERMON, GARGOMON);
+digivolvesTo(TERRIERMON, GATOMON);
+digivolvesTo(TERRIERMON, UNIMON);
+digivolvesTo(TERRIERMON, RAPIDMON_ARMOR);
+
+digivolvesTo(TENTOMON, KABUTERIMON);
+digivolvesTo(TENTOMON, KUWAGAMON);
+digivolvesTo(TENTOMON, SUNFLOWMON);
+digivolvesTo(TENTOMON, STINGMON);
+digivolvesTo(TENTOMON, WASPMON);
+
+digivolvesTo(TOYAGUMON, GUARDROMON);
+digivolvesTo(TOYAGUMON, GUARDROMON_GOLD);
+digivolvesTo(TOYAGUMON, GREYMON);
+digivolvesTo(TOYAGUMON, CLOCKMON);
+digivolvesTo(TOYAGUMON, SUKAMON);
+digivolvesTo(TOYAGUMON, STARMON);
+
+digivolvesTo(DRACMON, ARCADIAMON_CHAMPION);
+digivolvesTo(DRACMON, SANGLOUPMON);
+digivolvesTo(DRACMON, DEVIMON);
+digivolvesTo(DRACMON, RAREMON);
+digivolvesTo(DRACMON, SISTERMON_CIEL);
+
+digivolvesTo(DRACOMON, COREDRAMON_BLUE);
+digivolvesTo(DRACOMON, COREDRAMON_GREEN);
+digivolvesTo(DRACOMON, VEEDRAMON);
+digivolvesTo(DRACOMON, GINRYUMON);
+
+digivolvesTo(DORUMON, GUARDROMON);
+digivolvesTo(DORUMON, CYCLONEMON);
+digivolvesTo(DORUMON, DORUGAMON);
+digivolvesTo(DORUMON, RAPTORDRAMON);
+digivolvesTo(DORUMON, WASPMON);
+
+digivolvesTo(HAGURUMON, GUARDROMON);
+digivolvesTo(HAGURUMON, CLOCKMON);
+digivolvesTo(HAGURUMON, GOLDNUMEMON);
+digivolvesTo(HAGURUMON, STARMON);
+digivolvesTo(HAGURUMON, PLATINUMSUKAMON);
+
+digivolvesTo(PATAMON, EXVEEMON);
+digivolvesTo(PATAMON, ANGEMON);
+digivolvesTo(PATAMON, GATOMON);
+digivolvesTo(PATAMON, BIRDRAMON);
+digivolvesTo(PATAMON, UNIMON);
+digivolvesTo(PATAMON, REPPAMON);
+
+digivolvesTo(HACKMON, GREYMON);
+digivolvesTo(HACKMON, GEOGREYMON);
+digivolvesTo(HACKMON, ZUBAEAGERMON);
+digivolvesTo(HACKMON, BAOHUCKMON);
+digivolvesTo(HACKMON, PLATINUMSUKAMON);
+digivolvesTo(HACKMON, MONOCHROMON);
+
+digivolvesTo(PALMON, WOODMON);
+digivolvesTo(PALMON, KUWAGAMON);
+digivolvesTo(PALMON, SUNFLOWMON);
+digivolvesTo(PALMON, MUDFRIGIMON);
+digivolvesTo(PALMON, TOGEMON);
+digivolvesTo(PALMON, VEGIEMON);
+
+digivolvesTo(DEMIDEVIMON, ICEDEVIMON);
+digivolvesTo(DEMIDEVIMON, KYUBIMON);
+digivolvesTo(DEMIDEVIMON, KURISARIMON);
+digivolvesTo(DEMIDEVIMON, DEVIMON);
+digivolvesTo(DEMIDEVIMON, BAKEMON);
+
+digivolvesTo(BIYOMON, AQUILAMON);
+digivolvesTo(BIYOMON, AIRDRAMON);
+digivolvesTo(BIYOMON, KABUTERIMON);
+digivolvesTo(BIYOMON, KYUBIMON);
+digivolvesTo(BIYOMON, BIRDRAMON);
+
+digivolvesTo(FALCOMON, AQUILAMON);
+digivolvesTo(FALCOMON, EXVEEMON);
+digivolvesTo(FALCOMON, STINGMON);
+digivolvesTo(FALCOMON, PECKMON);
+
+digivolvesTo(FANBEEMON, GUARDROMON_GOLD);
+digivolvesTo(FANBEEMON, STINGMON);
+digivolvesTo(FANBEEMON, TOGEMON);
+digivolvesTo(FANBEEMON, RAPTORDRAMON);
+digivolvesTo(FANBEEMON, WASPMON);
+
+digivolvesTo(VEEMON, LOBOMON);
+digivolvesTo(VEEMON, EXVEEMON);
+digivolvesTo(VEEMON, STRIKEDRAMON);
+digivolvesTo(VEEMON, VEEDRAMON);
+digivolvesTo(VEEMON, FLAMEDRAMON);
+digivolvesTo(VEEMON, MAGNAMON);
+
+digivolvesTo(SALAMON, SOCERIMON);
+digivolvesTo(SALAMON, GATOMON);
+digivolvesTo(SALAMON, BAOHUCKMON);
+digivolvesTo(SALAMON, VEEDRAMON);
+digivolvesTo(SALAMON, FRIGIMON);
+digivolvesTo(SALAMON, REPPAMON);
+
+digivolvesTo(BETAMON, AIRDRAMON);
+digivolvesTo(BETAMON, SHELLNUMEMON);
+digivolvesTo(BETAMON, GEKOMON);
+digivolvesTo(BETAMON, SEADRAMON);
+digivolvesTo(BETAMON, NUMEMON);
+digivolvesTo(BETAMON, VEGIEMON);
+
+digivolvesTo(HAWKMON, AQUILAMON);
+digivolvesTo(HAWKMON, AIRDRAMON);
+digivolvesTo(HAWKMON, BIRDRAMON);
+digivolvesTo(HAWKMON, PECKMON);
+digivolvesTo(HAWKMON, MERAMON);
+
+digivolvesTo(MUSHROOMON, WOODMON);
+digivolvesTo(MUSHROOMON, SUNFLOWMON);
+digivolvesTo(MUSHROOMON, MUDFRIGIMON);
+digivolvesTo(MUSHROOMON, VEGIEMON);
+
+digivolvesTo(MONODRAMON, KURISARIMON);
+digivolvesTo(MONODRAMON, COREDRAMON_BLUE);
+digivolvesTo(MONODRAMON, STRIKEDRAMON);
+digivolvesTo(MONODRAMON, DORUGAMON);
+digivolvesTo(MONODRAMON, RAPTORDRAMON);
+
+digivolvesTo(LALAMON, WOODMON);
+digivolvesTo(LALAMON, SUNFLOWMON);
+digivolvesTo(LALAMON, TOGEMON);
+digivolvesTo(LALAMON, VEGIEMON);
+
+digivolvesTo(LUCEMON, ANGEMON);
+digivolvesTo(LUCEMON, DEVIMON);
+digivolvesTo(LUCEMON, LUCEMON_FM);
+
+digivolvesTo(LUNAMON, SANGLOUPMON);
+digivolvesTo(LUNAMON, GATOMON);
+digivolvesTo(LUNAMON, LEKISMON);
+digivolvesTo(LUNAMON, SISTERMON_CIEL);
+
+digivolvesTo(RENAMON, WOODMON);
+digivolvesTo(RENAMON, GARURUMON);
+digivolvesTo(RENAMON, KYUBIMON);
+digivolvesTo(RENAMON, TURUIEMON);
+digivolvesTo(RENAMON, BLACKGATOMON);
+digivolvesTo(RENAMON, LEKISMON);
+
+digivolvesTo(LOPMON, WIZARDMON);
+digivolvesTo(LOPMON, GARGOMON);
+digivolvesTo(LOPMON, MUDFRIGIMON);
+digivolvesTo(LOPMON, DEVIMON);
+digivolvesTo(LOPMON, TURUIEMON);
+digivolvesTo(LOPMON, BLACKGATOMON);
+
+digivolvesTo(WORMMON, ICEDEVIMON);
+digivolvesTo(WORMMON, KABUTERIMON);
+digivolvesTo(WORMMON, KUWAGAMON);
+digivolvesTo(WORMMON, STINGMON);
+digivolvesTo(WORMMON, HUDIEMON);
+digivolvesTo(WORMMON, WASPMON);
 //#endregion
 
 //#region Champion to Ultimate
