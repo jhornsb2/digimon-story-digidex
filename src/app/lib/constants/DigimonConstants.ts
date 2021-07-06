@@ -4721,7 +4721,7 @@ digivolvesTo(KOROMON, GUILMON);
 digivolvesTo(KOROMON, TOYAGUMON);
 digivolvesTo(KOROMON, DRACOMON);
 digivolvesTo(KOROMON, HACKMON);
-//TODO: digivolvesTo(KOROMON, SHOUTMON);
+digivolvesTo(KOROMON, SHOUTMON);
 
 digivolvesTo(TANEMON, PALMON);
 digivolvesTo(TANEMON, FANBEEMON);
@@ -4744,7 +4744,7 @@ digivolvesTo(TOKOMON, PATAMON);
 digivolvesTo(TOKOMON, FALCOMON);
 digivolvesTo(TOKOMON, HAWKMON);
 digivolvesTo(TOKOMON, LUCEMON);
-//TODO: digivolvesTo(TOKOMON, SISTERMON_BLANC);
+digivolvesTo(TOKOMON, SISTERMON_BLANC);
 
 digivolvesTo(NYAROMON, ARMADILLOMON);
 digivolvesTo(NYAROMON, TERRIERMON);
@@ -4774,7 +4774,7 @@ digivolvesTo(MOTIMON, HAGURUMON);
 digivolvesTo(WANYAMON, GAOMON);
 digivolvesTo(WANYAMON, KUDAMON);
 digivolvesTo(WANYAMON, DORUMON);
-//TODO: digivolvesTo(WANYAMON, RYUDAMON);
+digivolvesTo(WANYAMON, RYUDAMON);
 //#endregion
 
 //#region Rookie to Champion
