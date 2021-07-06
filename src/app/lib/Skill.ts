@@ -8,4 +8,5 @@ export interface Skill {
 	attribute: Attribute;
 	skillType: SkillType;
 	isInheritable: boolean;
+	description: string;
 }
