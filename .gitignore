@@ -49,5 +49,5 @@ Thumbs.db
 *.wmv
 
 #Generatable Data
-/data-puller/output.json
-/data-puller/output-converted.ts
+/*data-pullers/*/*output.json
+/*data-pullers/*/*output-converted.ts
