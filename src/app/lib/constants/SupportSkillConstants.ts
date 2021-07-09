@@ -388,7 +388,27 @@ export const numbingWaves: SupportSkill = {
 	description: 'Prevents paralysis.'
 };
 
-export const nxedgeStyle: SupportSkill = {
+export const nxedgeStyle1: SupportSkill = {
+	name: 'NXEdge Style',
+	description: 'Reduces SP consumed by skills by 15%.'
+};
+
+export const nxedgeStyle2: SupportSkill = {
+	name: 'NXEdge Style',
+	description: 'Increases damage dealt by 5%, and decreases damage received by 5%.'
+};
+
+export const nxedgeStyle3: SupportSkill = {
+	name: 'NXEdge Style',
+	description: 'Increases yen earned in battle, and ensures successful escape from battle if possible.'
+};
+
+export const nxedgeStyle4: SupportSkill = {
+	name: 'NXEdge Style',
+	description: 'Cuts the rate of abnormal statuses received by 30%.'
+};
+
+export const nxedgeStyle5: SupportSkill = {
 	name: 'NXEdge Style',
 	description: 'Raises CRT and probability of combos by 10%.'
 };
