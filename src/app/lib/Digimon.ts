@@ -1,3 +1,4 @@
+import { DigivolutionRequirements } from './DigivolutionRequirements';
 import { Attribute } from "./Attribute";
 import { DigimonType } from "./DigimonType";
 import { Stage } from "./Stage";
@@ -19,4 +20,6 @@ export interface Digimon {
 
 	digivolvesFrom: Digimon[];
 	digivolvesTo: Digimon[];
+
+	digivolutionRequirements?: DigivolutionRequirements;
 }

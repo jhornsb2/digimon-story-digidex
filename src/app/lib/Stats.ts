@@ -1,8 +1,10 @@
 export interface Stats {
-	hp: number;
-	sp: number;
-	atk: number;
-	int: number;
-	def: number;
-	spd: number;
+	hp?: number;
+	sp?: number;
+	atk?: number;
+	int?: number;
+	def?: number;
+	spd?: number;
+	abi?: number;
+	cam?: number;
 }

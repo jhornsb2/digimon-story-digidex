@@ -86,7 +86,15 @@ export const ARCADIAMON_IN_TR: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.utopia,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 55,
+			abi: 5
+		},
+		clearedHackersMemory: true
+	}
 };
 
 export const KOROMON: Digimon = {
@@ -100,7 +108,13 @@ export const KOROMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 3,
+		stats: {
+			atk: 15
+		}
+	}
 };
 
 export const TANEMON: Digimon = {
@@ -114,7 +128,10 @@ export const TANEMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 5
+	}
 };
 
 export const TSUNOMON: Digimon = {
@@ -128,7 +145,10 @@ export const TSUNOMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 5
+	}
 };
 
 export const TSUMEMON: Digimon = {
@@ -142,7 +162,10 @@ export const TSUMEMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 5
+	}
 };
 
 export const TOKOMON: Digimon = {
@@ -156,7 +179,10 @@ export const TOKOMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 5
+	}
 };
 
 export const NYAROMON: Digimon = {
@@ -170,7 +196,13 @@ export const NYAROMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 3,
+		stats: {
+			int: 10
+		}
+	}
 };
 
 export const PAGUMON: Digimon = {
@@ -184,7 +216,10 @@ export const PAGUMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 5
+	}
 };
 
 export const YOKOMON: Digimon = {
@@ -198,7 +233,13 @@ export const YOKOMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 3,
+		stats: {
+			hp: 50
+		}
+	}
 };
 
 export const BUKAMON: Digimon = {
@@ -212,7 +253,13 @@ export const BUKAMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 3,
+		stats: {
+			int: 15
+		}
+	}
 };
 
 export const MOTIMON: Digimon = {
@@ -226,7 +273,13 @@ export const MOTIMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 3,
+		stats: {
+			def: 15
+		}
+	}
 };
 
 export const WANYAMON: Digimon = {
@@ -240,7 +293,10 @@ export const WANYAMON: Digimon = {
 	equipmentSlots: 0,
 	supportSkill: supportSkills.innocentEyes,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 5
+	}
 };
 //#endregion
 
