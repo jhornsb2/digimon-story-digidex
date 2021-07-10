@@ -312,7 +312,14 @@ export const AGUMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.dragonsRoar,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			atk: 30,
+			cam: 10
+		}
+	}
 };
 
 export const AGUMON_BLK: Digimon = {
@@ -326,7 +333,13 @@ export const AGUMON_BLK: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.dragonsWrath,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 30
+		}
+	}
 };
 
 export const ARCADIAMON_ROOKIE: Digimon = {
@@ -340,7 +353,15 @@ export const ARCADIAMON_ROOKIE: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.utopia,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 6,
+		stats: {
+			atk: 90,
+			spd: 20
+		},
+		clearedHackersMemory: true
+	}
 };
 
 export const ARMADILLOMON: Digimon = {
@@ -354,7 +375,14 @@ export const ARMADILLOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.ironcladDefense,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			def: 20,
+			cam: 10
+		}
+	}
 };
 
 export const IMPMON: Digimon = {
@@ -368,7 +396,14 @@ export const IMPMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.adroitWisdom,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			int: 30,
+			sp: 20
+		}
+	}
 };
 
 export const ELECMON: Digimon = {
@@ -382,7 +417,15 @@ export const ELECMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.metalEmpire,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			hp: 75,
+			sp: 20,
+			spd: 20
+		}
+	}
 };
 
 export const OTAMAMON: Digimon = {
@@ -396,7 +439,13 @@ export const OTAMAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.deepSeaSlumber,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			int: 20
+		}
+	}
 };
 
 export const GAOMON: Digimon = {
@@ -410,7 +459,15 @@ export const GAOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.feint,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			atk: 20,
+			spd: 20,
+			cam: 10
+		}
+	}
 };
 
 export const GAZIMON: Digimon = {
@@ -424,7 +481,14 @@ export const GAZIMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.nightmareSoldiers,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			atk: 15,
+			spd: 20
+		}
+	}
 };
 
 export const GABUMON: Digimon = {
@@ -438,7 +502,15 @@ export const GABUMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.feralPulse,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			atk: 20,
+			hp: 75,
+			spd: 20
+		}
+	}
 };
 
 export const GABUMON_BLK: Digimon = {
@@ -452,7 +524,15 @@ export const GABUMON_BLK: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.menace,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 6,
+		stats: {
+			atk: 20,
+			hp: 75,
+			spd: 20
+		}
+	}
 };
 
 export const GUILMON: Digimon = {
@@ -466,7 +546,14 @@ export const GUILMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.allRounder,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			atk: 30,
+			spd: 20
+		}
+	}
 };
 
 export const KUDAMON: Digimon = {
@@ -480,7 +567,14 @@ export const KUDAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.mysticProtection,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			int: 20,
+			sp: 20
+		}
+	}
 };
 
 export const KERAMON: Digimon = {
@@ -494,7 +588,14 @@ export const KERAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.destroyer,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			atk: 20,
+			spd: 20
+		}
+	}
 };
 
 export const GOTSUMON: Digimon = {
@@ -508,7 +609,13 @@ export const GOTSUMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.animalColosseum,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			def: 30
+		}
+	}
 };
 
 export const GOBLIMON: Digimon = {
@@ -522,7 +629,13 @@ export const GOBLIMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.haymaker,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			atk: 40
+		}
+	}
 };
 
 export const GOMAMON: Digimon = {
@@ -536,7 +649,14 @@ export const GOMAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.deepSavers,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			hp: 100,
+			cam: 10
+		}
+	}
 };
 
 export const SYAKOMON: Digimon = {
@@ -550,7 +670,14 @@ export const SYAKOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.deepSavers,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			def: 15,
+			int: 20
+		}
+	}
 };
 
 export const ZUBAMON: Digimon = {
@@ -564,7 +691,14 @@ export const ZUBAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.legendArms,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 10,
+		stats: {
+			atk: 35,
+			cam: 10
+		}
+	}
 };
 
 export const SOLARMON: Digimon = {
@@ -578,7 +712,14 @@ export const SOLARMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.fullFunctionality,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 6,
+		stats: {
+			def: 25,
+			hp: 75
+		}
+	}
 };
 
 export const CHUUMON: Digimon = {
@@ -592,7 +733,13 @@ export const CHUUMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.toFightAnotherDay,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 6,
+		stats: {
+			spd: 30
+		}
+	}
 };
 
 export const TERRIERMON: Digimon = {
@@ -606,7 +753,14 @@ export const TERRIERMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.bullsEye,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			spd: 30,
+			cam: 10
+		}
+	}
 };
 
 export const TENTOMON: Digimon = {
@@ -620,7 +774,15 @@ export const TENTOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.numbingWaves,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			def: 30,
+			hp: 75,
+			cam: 10
+		}
+	}
 };
 
 export const TOYAGUMON: Digimon = {
@@ -634,7 +796,14 @@ export const TOYAGUMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.ironcladDefense,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			def: 20,
+			hp: 75
+		}
+	}
 };
 
 export const DRACMON: Digimon = {
@@ -648,7 +817,14 @@ export const DRACMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.vampire,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 30,
+			spd: 20
+		}
+	}
 };
 
 export const DRACOMON: Digimon = {
@@ -662,7 +838,15 @@ export const DRACOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.gekirin,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 6,
+		stats: {
+			atk: 50,
+			def: 20,
+			cam: 10
+		}
+	}
 };
 
 export const DORUMON: Digimon = {
@@ -676,7 +860,14 @@ export const DORUMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.haymaker,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 20,
+			spd: 30
+		}
+	}
 };
 
 export const HAGURUMON: Digimon = {
@@ -690,7 +881,15 @@ export const HAGURUMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.metalEmpire,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			def: 30,
+			hp: 75,
+			cam: 10
+		}
+	}
 };
 
 export const PATAMON: Digimon = {
@@ -704,7 +903,15 @@ export const PATAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.justiceGenome,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			int: 20,
+			spd: 20,
+			cam: 10
+		}
+	}
 };
 
 export const HACKMON: Digimon = {
@@ -718,7 +925,14 @@ export const HACKMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.battleSense,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			atk: 20,
+			abi: 20
+		}
+	}
 };
 
 export const PALMON: Digimon = {
@@ -732,7 +946,14 @@ export const PALMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.poisonThorns,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			hp: 100,
+			cam: 10
+		}
+	}
 };
 
 export const DEMIDEVIMON: Digimon = {
@@ -746,7 +967,13 @@ export const DEMIDEVIMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.nightmareSoldiers,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			spd: 30
+		}
+	}
 };
 
 export const BIYOMON: Digimon = {
@@ -760,7 +987,15 @@ export const BIYOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.phoenixFeathers,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			int: 20,
+			spd: 20,
+			cam: 10
+		}
+	}
 };
 
 export const FALCOMON: Digimon = {
@@ -774,7 +1009,13 @@ export const FALCOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.windGuardians,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			spd: 30
+		}
+	}
 };
 
 export const FANBEEMON: Digimon = {
@@ -788,7 +1029,13 @@ export const FANBEEMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.royalCommando,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 6,
+		stats: {
+			spd: 30
+		}
+	}
 };
 
 export const VEEMON: Digimon = {
@@ -802,7 +1049,15 @@ export const VEEMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.dragonsWrath,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 6,
+		stats: {
+			atk: 20,
+			spd: 20,
+			cam: 10
+		}
+	}
 };
 
 export const SALAMON: Digimon = {
@@ -816,7 +1071,15 @@ export const SALAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.holyRing,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			int: 20,
+			sp: 20,
+			cam: 10
+		}
+	}
 };
 
 export const BETAMON: Digimon = {
@@ -830,7 +1093,13 @@ export const BETAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.mysteriousScale,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			int: 40
+		}
+	}
 };
 
 export const HAWKMON: Digimon = {
@@ -844,7 +1113,14 @@ export const HAWKMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.windGuardians,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			spd: 30,
+			cam: 10
+		}
+	}
 };
 
 export const MUSHROOMON: Digimon = {
@@ -858,7 +1134,14 @@ export const MUSHROOMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.natureSpirits,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			def: 10,
+			hp: 75
+		}
+	}
 };
 
 export const MONODRAMON: Digimon = {
@@ -872,7 +1155,14 @@ export const MONODRAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.justiceUnion,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 35,
+			cam: 10
+		}
+	}
 };
 
 export const LALAMON: Digimon = {
@@ -886,7 +1176,13 @@ export const LALAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.flowerGuard,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 9,
+		stats: {
+			hp: 75
+		}
+	}
 };
 
 export const LUCEMON: Digimon = {
@@ -900,7 +1196,15 @@ export const LUCEMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.justiceGenome,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 30,
+		stats: {
+			int: 130,
+			sp: 80,
+			abi: 80
+		}
+	}
 };
 
 export const LUNAMON: Digimon = {
@@ -914,7 +1218,14 @@ export const LUNAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.moonKissedBlade,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			int: 20,
+			sp: 30
+		}
+	}
 };
 
 export const RENAMON: Digimon = {
@@ -928,7 +1239,15 @@ export const RENAMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.adroitWisdom,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			atk: 20,
+			int: 20,
+			spd: 20
+		}
+	}
 };
 
 export const LOPMON: Digimon = {
@@ -942,7 +1261,14 @@ export const LOPMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.animalColosseum,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 15,
+			int: 20
+		}
+	}
 };
 
 export const WORMMON: Digimon = {
@@ -956,7 +1282,14 @@ export const WORMMON: Digimon = {
 	equipmentSlots: 1,
 	supportSkill: supportSkills.natureSpirits,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			def: 20,
+			cam: 10
+		}
+	}
 };
 //#endregion
 
