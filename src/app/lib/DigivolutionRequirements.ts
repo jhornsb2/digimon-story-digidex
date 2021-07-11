@@ -7,4 +7,6 @@ export interface DigivolutionRequirements {
 
 	//additional requirements
 	clearedHackersMemory?: boolean;
+	humanSpiritOfFlame?: boolean;
+	humanSpiritOfLight?: boolean;
 }
