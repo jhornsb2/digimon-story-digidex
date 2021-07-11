@@ -1,4 +1,5 @@
-import { Stats } from '.';
+import { Digimon } from './Digimon';
+import { Stats } from './Stats';
 
 export interface DigivolutionRequirements {
 	//basic requirements
@@ -9,4 +10,8 @@ export interface DigivolutionRequirements {
 	clearedHackersMemory?: boolean;
 	humanSpiritOfFlame?: boolean;
 	humanSpiritOfLight?: boolean;
+	beastSpiritOfFlame?: boolean;
+	beastSpiritOfLight?: boolean;
+
+	digimon?: Digimon[];
 }
