@@ -12,6 +12,8 @@ export interface DigivolutionRequirements {
 	humanSpiritOfLight?: boolean;
 	beastSpiritOfFlame?: boolean;
 	beastSpiritOfLight?: boolean;
+	modeChange?: boolean;
 
+	//digimon required for DNA digivolution
 	digimon?: Digimon[];
 }
