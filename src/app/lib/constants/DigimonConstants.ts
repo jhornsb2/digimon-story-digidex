@@ -6657,7 +6657,16 @@ export const ARMAGEDDEMON: Digimon = {
 	description: 'A Super-Mega Digimon born of a mutation that occurred when a large amount of Diaboromon fuse. Diaboromon has the ability to copy itself en masse, but their abilities would be less than those of the original. But by fusing that mass of copies, it was able to obtain more power than the original Diaboromon. Its special move Black Rain shoots energy beam into the air that fall like rain, and Ultimate Flare fires a destructive energy beam from its gaping maw.',
 	supportSkill: supportSkills.counterAttack,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 70,
+		stats: {
+			hp: 2000,
+			sp: 140,
+			atk: 290,
+			abi: 100
+		}
+	}
 };
 
 export const ARCADIAMON_ULTRA: Digimon = {
@@ -6671,7 +6680,18 @@ export const ARCADIAMON_ULTRA: Digimon = {
 	description: 'The form taken when Arcadiamon Mega evolved even further when it absorbed energy generated from battles. Capable of rocking the ecosystem of the Digital World, its sheer power makes it known as a being exceeding Mega. Its special move Dystopia Lances absorbs data from Digimon and attack energy with just a touch of its countless feelers, and God Matrix is an unblockable attack that instantly dismantles anything and everything into ones and zeroes with invisible waves.',
 	supportSkill: supportSkills.utopia,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 70,
+		stats: {
+			sp: 150,
+			atk: 250,
+			int: 150,
+			spd: 160,
+			abi: 60
+		},
+		clearedHackersMemory: true
+	}
 };
 
 export const ALPHAMON_OURYUKEN: Digimon = {
@@ -6685,7 +6705,21 @@ export const ALPHAMON_OURYUKEN: Digimon = {
 	description: 'The form taken when Alphamon releases a magic circle of Digicode that miraculously Digivolves Ouryumon into a sword. Ouryumon is the Mega of an experimental prototype Digimon that pursued greater fighting strength, and in sword form that strength is completely devoted to offense. One swing of the Ouryuken contains all of the power of a Mega Digimon, making it impossible for the average Digimon to wield, much less defend against. Its special move is Ultimate Ouryuken.',
 	supportSkill: supportSkills.blastDigivolution,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			atk: 180,
+			def: 170,
+			int: 150,
+			cam: 100,
+			abi: 80
+		},
+		digimon: [
+			ALPHAMON,
+			//OURYUMON - Do after OURYUMON is declared.
+		]
+	}
 };
 
 export const IMPERIALDRAMON_PM: Digimon = {
@@ -6699,7 +6733,17 @@ export const IMPERIALDRAMON_PM: Digimon = {
 	description: 'A mutation of Imperialdramon (paladin mode) that has gained the power of the knight Omnimon. It is the final and strongest form of Imperialdramon that has been spoken of since ancient times. It descended in a time of great chaos in the ancient Digital World, rescuing it from total collapse. There are no real details of what happened, although research may bring answers. Its special move is a stroke of its Omni Sword, cutting the enemy in two and initializing its config data.',
 	supportSkill: supportSkills.holySalvation,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 70,
+		stats: {
+			atk: 160,
+			def: 160,
+			int: 160,
+			spd: 160,
+			abi: 100
+		}
+	}
 };
 
 export const EXAMON: Digimon = {
@@ -6713,7 +6757,21 @@ export const EXAMON: Digimon = {
 	description: 'A holy knight Digimon and one of the sacred guardian Royal Knights. This Digimon has so much data, traditional digital tools cannot seem to render it. Its existence was only discovered with the use of state-of-the-art digital tools. It has a gigantic lance called Ambrose and giant wings called Caledfwlch, which are sentient. Its special move is high capacity laser shot from Ambrose called Pendragon\'s Glory. It can also use Dragonic Impact which allows it to dive from space, creating a shock wave with friction.',
 	supportSkill: supportSkills.caledfwlchDive,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			hp: 1650,
+			atk: 150,
+			spd: 150,
+			cam: 100,
+			abi: 100
+		},
+		digimon: [
+			SLAYERDRAMON,
+			BREAKDRAMON
+		]
+	}
 };
 
 export const OMNIMON: Digimon = {
@@ -6727,7 +6785,21 @@ export const OMNIMON: Digimon = {
 	description: 'A holy knight Digimon and member of the Royal Knights that is fused from WarGreymon and MetalGarurumon with the will of those who wish for good. Combining the qualities of both, this Digimon is a flexible fighter. Its left arm is the shape of WarGreymon\'s with a sword and shield, and its right hand is the shape of MetalGarurumon\'s and is equipped with a cannon and missiles. Its cloak allows it to fly away from attacks. Supreme Cannon fires frigid air, and Transcendent Sword is an invincible blade.',
 	supportSkill: supportSkills.holyKnight,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			atk: 200,
+			int: 150,
+			spd: 150,
+			cam: 100,
+			abi: 40
+		},
+		digimon: [
+			WARGREYMON,
+			METALGARURUMON
+		]
+	}
 };
 
 export const OMNIMON_ZWART: Digimon = {
@@ -6741,7 +6813,21 @@ export const OMNIMON_ZWART: Digimon = {
 	description: 'A holy knight Digimon and member of the Royal Knights is fused from WarGreymon and MetalGarurumon with the will of those who wish for good. Combining the qualities of both, this Digimon is a flexible fighter. Recently discovered, Black Digitron has somehow turned itself black and enhanced its power. Supreme Cannon fires frigid air to freeze its enemy, and Transcendent Sword, is an invincible blade it carries in its left hand.',
 	supportSkill: supportSkills.obsidianKnight,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			hp: 1500,
+			atk: 150,
+			def: 200,
+			cam: 100,
+			abi: 40
+		},
+		digimon: [
+			BLACKWARGREYMON,
+			METALGARURUMON_BLK
+		]
+	}
 };
 
 export const CHAOSMON: Digimon = {
@@ -6755,7 +6841,19 @@ export const CHAOSMON: Digimon = {
 	description: 'Chaosmon is the DNA Digivolution of BanchoLeomon and Darkdramon, and the faces of each Digimon can be seen on both arms. Its special moves are Bantyo Blade, unleashing invincible strokes of the BAN-TYO Blade equipped on its Bancho Arm, and Dark Prominence, which shoots its own digital cells from the Gigastick Cannon on its Darkdra Arm.',
 	supportSkill: supportSkills.unstableSingularity,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			atk: 255,
+			cam: 100,
+			abi: 40
+		},
+		digimon: [
+			DARKDRAMON,
+			BANCHOLEOMON
+		]
+	}
 };
 
 export const CHAOSMON_VA: Digimon = {
@@ -6769,7 +6867,19 @@ export const CHAOSMON_VA: Digimon = {
 	description: '\"Chaosmon\" is the codename for a Digimon that should not exist, a bug considered impossible according to the Central Dogma of the Digital World. This Chaosmon appears to have been born of a DNA Digivolution between Bancho Leomon and Varodurumon, whose faces can be seen on its arms. Its special moves are Bantyo Blade, which unleashes a barrage of strikes from the Bantyo Blade on its Bancho Arm, and Aurora Blaster, which shoots purifying light from its Valdur Arm.',
 	supportSkill: supportSkills.unstableSingularity,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			atk: 155,
+			int: 100,
+			cam: 100
+		},
+		digimon: [
+			VARODURUMON,
+			BANCHOLEOMON
+		]
+	}
 };
 
 export const SUSANOMON: Digimon = {
@@ -6783,7 +6893,20 @@ export const SUSANOMON: Digimon = {
 	description: 'The strongest god of destruction that governs regeneration in eastern folklore. It is said to appear when network systems experience abnormalities, rendering the existing system unto nothingness and building a new system in its place. Its special moves are Celestial Blade, which cleaves any and everything under the heavens with the blade of light, Orochi, released from its ZERO-ARMS, and Heaven\'s Thunder, the ultimate technique that faces its light blade to the heavens and rains it down on the world as destructive lightning.',
 	supportSkill: supportSkills.godOfWar,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			hp: 1000,
+			atk: 150,
+			cam: 100,
+			abi: 100
+		},
+		digimon: [
+			KAISERGREYMON,
+			MAGNAGARURUMON
+		]
+	}
 };
 
 export const GALLANTMON_CM: Digimon = {
@@ -6797,7 +6920,16 @@ export const GALLANTMON_CM: Digimon = {
 	description: 'A hidden form of Gallantmon clad in shining crimson armor. It is at full power, heating up its armored parts and dying them red. As a result, it cannot stay in this mode for long. Its chest contains a DigiCore with a Digital Hazard sealed within. When it releases the power in its body, wings of energy radiate from its back. It wields formless weapons of divine light: the lance Gungnir and the sword Blutgang. Its special move Quo Vadis tears apart foes on the atomic level with Gungnir and consigns them to another dimension.',
 	supportSkill: supportSkills.crimsonMode,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 80,
+		stats: {
+			atk: 185,
+			def: 185,
+			cam: 100,
+			abi: 80
+		}
+	}
 };
 
 export const BELPHEMON_RM: Digimon = {
@@ -6811,7 +6943,10 @@ export const BELPHEMON_RM: Digimon = {
 	description: 'Belphemon awakes from its constant slumber once every thousand years and returns to its original form, full of rage. It is said that hearing its Belphemon rage mode roar is instant death even to Ultimate Digimon, and not even Mega Digimon can escape unharmed. Special move Gift of Darkness uses its claws covered in the flames of Hell. Also, the data of Digimon killed by Seven Deadly Digimon is not reincarnated but is sent to the Dark Area to become meat for demon lords.',
 	supportSkill: supportSkills.furiousHowl,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		modeChange: true
+	}
 };
 
 export const LUCEMON_SM: Digimon = {
@@ -6825,7 +6960,18 @@ export const LUCEMON_SM: Digimon = {
 	description: 'This is Lucemon\'s final form, as a dragon that appears in Revelation. As was foretold, it wears the crown of the seven deadly sins and carries an orb of darkness called Gehenna that nullifies all attacks. It was said that the world would perish when Lucemon took this form. However, Lucemon\'s true form (Lucemon Larva) exists within Gehenna and Satan mode is no more than a shadow of Lucemon. For that reason, no attack will touch its true form. Special move Divine Atonement purifies everything in flames from its crown.',
 	supportSkill: supportSkills.gehenna,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 70,
+		stats: {
+			hp: 1400,
+			sp: 160,
+			atk: 130,
+			int: 250,
+			spd: 170,
+			abi: 100
+		}
+	}
 };
 
 export const FLAMEDRAMON: Digimon = {
@@ -6839,7 +6985,16 @@ export const FLAMEDRAMON: Digimon = {
 	description: 'An armor dragon humanoid Digimon Digivolved with the power of the Digi-Egg of Courage, which carries flame properties and increases combat strength like a raging fire, enabling powerful attacks on enemy Digimon. Its signature move is Flaming Fist, which delivers a fiery punch to the enemy.',
 	supportSkill: supportSkills.fightOrFlight,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 14,
+		stats: {
+			atk: 40,
+			spd: 40,
+			cam: 25
+		},
+		digieggOfCourage: true
+	}
 };
 
 export const MAGNAMON: Digimon = {
@@ -6853,7 +7008,17 @@ export const MAGNAMON: Digimon = {
 	description: 'An armor holy knight Digimon that has Digivolved through the Digi-Egg of Miracles, giving it a metal attribute through the super metal Chrome Digizoid. Magnamon, which is a member of the Royal Knights, has immense defense capabilities and also has attack on a level with Ultimate forms. By gaining the power of the Digi-Egg of Miracles, it can overcome anything. Special moves are firing a plasma cannon called Plasma Shot, and Shining Gold Solar Storm that clears the enemy in a golden flash.',
 	supportSkill: supportSkills.miracle,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			atk: 120,
+			def: 145,
+			cam: 50,
+			abi: 80
+		},
+		digieggOfMiracles: true
+	}
 };
 
 export const RAPIDMON_ARMOR: Digimon = {
@@ -6867,7 +7032,17 @@ export const RAPIDMON_ARMOR: Digimon = {
 	description: 'A holy knight Digimon of an armor-Digivolved Terriermon with a Digi-Egg of Destiny. In essence, the Rapidmon is an Ultimate Digivolved Gargomon, but because of the Digi Egg of Destiny it shines gold and can reach the power of a Mega Digimon. Its special move is called Golden Triangle and has the same strength as the special move of a Magnamon.',
 	supportSkill: supportSkills.destiny,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 50,
+		stats: {
+			atk: 100,
+			int: 120,
+			cam: 50,
+			abi: 40
+		},
+		digieggOfDestiny: true
+	}
 };
 
 export const SHOUTMON: Digimon = {
@@ -6881,7 +7056,15 @@ export const SHOUTMON: Digimon = {
 	description: 'A ferocious Digimon with amazing vigor and extreme aggression. But it is friendly with allies, and those recognized by Shoutmon can establish a deep bond that transcends species. A special function in Shoutmon\'s throat changes passion into energy, unleashing a Soul Crusher attack that uses a mic to amplify the burning passion in its chest to strike the enemy. Because its passion is the source of its strength, Shoutmon will not abandon a battle even if it hurts itself, contributing to its reputation.',
 	supportSkill: supportSkills.crossHeart,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 30,
+			spd: 20,
+			cam: 10
+		}
+	}
 };
 
 export const OMNISHOUTMON: Digimon = {
@@ -6895,7 +7078,16 @@ export const OMNISHOUTMON: Digimon = {
 	description: 'OmniShoutmon obtained a legendary Digivolution from Omnimon when it unleashed its soul\'s seething passion. On top of its fervent zeal, its whole body is clad in the sparkling gold Omega inForce, a power endowed by Omnimon, to gain a sharp, edged form. Its Flame Cannon turns overflowing feelings of friendship into bullets that not only attack, but act as an wall of firepower to protect comrades from harm. Its Hard Rock Spirit concentrates courage into flames in its fist, allowing for short-range punches or long-range fireballs.',
 	supportSkill: supportSkills.crossHeart,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			atk: 130,
+			def: 130,
+			spd: 120,
+			abi: 80
+		}
+	}
 };
 
 export const RYUDAMON: Digimon = {
@@ -6909,7 +7101,14 @@ export const RYUDAMON: Digimon = {
 	description: 'A Beast Digimon considered an experimental \"Prototype Digimon\" from before its discovery due to the archaic interface on its forehead. Although its body is clad in Japanese armor with high defensive capabilities, it is very nimble and fights by boldly leaping at the opponent\'s chest. It is devoted to the study of combat techniques and endowed with samurai spirit. In the deepest parts of its DigiCore, fearsome combat data of dragons and warlords from Japanese mythology are hidden. It has the potential to grow into a mighty Digimon.',
 	supportSkill: supportSkills.samuraiSpirit,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 8,
+		stats: {
+			atk: 30,
+			def: 30
+		}
+	}
 };
 
 export const GINRYUMON: Digimon = {
@@ -6923,7 +7122,14 @@ export const GINRYUMON: Digimon = {
 	description: 'A Beast Dragon Digimon whose entire body is clad in sturdy Japanese armor. Despite its appearance, it has a light body that allows it to glide gracefully through the air while parrying enemy attacks. It has the courage to parry enemy attacks using its own body, and eyesight to detect enemy attacks right before they hit. It is thought to be a Digivolved \"Prototype Digimon\". Its special move is Metal Armor Blade, by which it impales the enemy with an iron spear. Its signature move is Boujinha, in which it charges the enemy while parrying their attack with its armor.',
 	supportSkill: supportSkills.samuraiSpirit,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 14,
+		stats: {
+			atk: 40,
+			def: 40
+		}
+	}
 };
 
 export const HISYARYUMON: Digimon = {
@@ -6937,7 +7143,15 @@ export const HISYARYUMON: Digimon = {
 	description: 'A Beast Dragon Digimon clad in thick, shimmering scale mail that soars through the sky. It took this form when the fearsome combat data of dragons and warlords from Japanese mythology in the depths of its DigiCore was released. The orbs in its hands are said to be the souls of its fallen comrades; the orb in its right hand is the soul of Kinryu, while the orb in its left hand is the soul of Kakuryu, and DigiCore information lies hidden within each of them. Its special move is Legendary Dragon Blade, by which it turns into a giant sword and cuts the enemy in two.',
 	supportSkill: supportSkills.samuraiSpirit,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 30,
+		stats: {
+			hp: 400,
+			atk: 95,
+			def: 75
+		}
+	}
 };
 
 export const OURYUMON: Digimon = {
@@ -6951,8 +7165,18 @@ export const OURYUMON: Digimon = {
 	description: 'Ouryumon is an imaginary Digimon born from the daydream of a DigiCore. It is a form Digivolved when the creativity of the DigiCore itself was miraculously released from the interface on its brow. Possibly because it originally possessed the fearsome combat data of dragons and warlords from Japanese mythology within its DigiCore, the form created by its DigiCore is a warrior dragon clad in majestic Japanese armor and holding a sword in both hands. Its special move is Eiseiryuoujin, by which it slashes at the target with its two swords.',
 	supportSkill: supportSkills.samuraiSpirit,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 50,
+		stats: {
+			hp: 1300,
+			atk: 180,
+			abi: 20
+		}
+	}
 };
+//add OURYUMON to ALPHAMON_OURYUKEN's digivolution requirements now that it is defined.
+ALPHAMON_OURYUKEN.digivolutionRequirements?.digimon?.push(OURYUMON);
 
 export const APOCALYMON: Digimon = {
 	fieldGuideNumber: 332,
@@ -6965,7 +7189,13 @@ export const APOCALYMON: Digimon = {
 	description: 'A Digimon who appeared when negative thoughts were drawn together by darkness. So little is known about Apocalymon that it may not even be a Digimon. Some claim it appeared to purge the chaos of cyberspace, and reduce it back to nothing; others claim its arrival was spoken of in ancient texts. Its special move is Darkness Zone, which calls forth an infinite darkness. Anyone or anything caught in its wake is said to be consumed by the void and eventually reduced to nothing.',
 	supportSkill: supportSkills.revelation,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 99,
+		stats: {
+			abi: 120
+		}
+	}
 };
 
 export const SISTERMON_BLANC: Digimon = {
@@ -6979,7 +7209,16 @@ export const SISTERMON_BLANC: Digimon = {
 	description: 'A girl-like Digimon wearing a white rabbit, and sibling to Sistermon Noir. In contrast to its sister it is a bit shy, often hiding behind Noir. At Gankoomon\'s behest it helps with Hackmon\'s training, but it repeatedly has to hold back its sister\'s violence. As thanks to Gankoomon for saving the sisters, it dedicates itself to supervising Hackmon. It has both a Divine Pierce attack, which stabs enemies with its three-pronged Cross Barbée lance, and Protect Wave, a defensive wave made by stabbing the lance tip into the ground.',
 	supportSkill: supportSkills.supervisor,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 7,
+		stats: {
+			sp: 20,
+			int: 30,
+			cam: 50
+		},
+		dlc: true
+	}
 };
 
 export const SISTERMON_B_AWAKE: Digimon = {
@@ -6993,7 +7232,17 @@ export const SISTERMON_B_AWAKE: Digimon = {
 	description: 'Another form of Sistermon Blanc. A Holy Stigma appears in the center of its wimple and it awakens. Its reserved personality changes when it enters this form, dashing around the battlefield with frenzied movements obeying battle instincts laid bare. When it recovers from this state it falls into a gentle sleep, and its previous violence seems like a dream.',
 	supportSkill: supportSkills.feralPower,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			hp: 1150,
+			sp: 130,
+			int: 150,
+			abi: 50
+		},
+		dlc: true
+	}
 };
 
 export const SISTERMON_CIEL: Digimon = {
@@ -7007,7 +7256,15 @@ export const SISTERMON_CIEL: Digimon = {
 	description: 'A nun Digimon clad in a klobuk shaped like a black cat\'s head, and sister to Sistermon Blanc. It was tasked by Gankoomon with Hackmon\'s care, accompanying the former on its journey while training the latter. But Sistermon Noir handles this half-seriously, half in fun, laughing and shooting at Hackmon despite its exclamations of woe. It carries guns called Anthony in each hand, unleashing them in the random barrage special move Mickey Bullet, and in the rapid-fire straight line special move Bless Fire.',
 	supportSkill: supportSkills.supervisor,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 14,
+		stats: {
+			spd: 50,
+			cam: 10
+		},
+		dlc: true
+	}
 };
 
 export const SISTERMON_C_AWAKE: Digimon = {
@@ -7021,7 +7278,17 @@ export const SISTERMON_C_AWAKE: Digimon = {
 	description: 'Another form of Sistermon Noir. It wears a wimple on its head and a Holy Stigma appears on its chest, awakening its power. The feral power drawn out with its awakening raises its quick wits and movement, and it kills the enemy with a stooped-over stance.',
 	supportSkill: supportSkills.feralPower,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		level: 60,
+		stats: {
+			hp: 1150,
+			atk: 130,
+			spd: 150,
+			abi: 50
+		},
+		dlc: true
+	}
 };
 
 export const ALPHAMON_NX: Digimon = {
@@ -7035,7 +7302,10 @@ export const ALPHAMON_NX: Digimon = {
 	description: 'A member of the Royal Knights. Despite being a knight, this Digimon is a counter to them, and normally it does not show itself. With its blue mantle, it is called the Aloof Hermit and occupies the Empty Seat in the Royal Knights. It possesses the ultimate ability called Alpha inForce which instantly replays what happened in battle. Its special moves are Excalibur Gradalpha that draws light from a magic circle, piercing the enemy and Soul Digitalization where it creates a huge magic circle to summon a mythic monster.',
 	supportSkill: supportSkills.nxedgeStyle1,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		nxDlc: true
+	}
 };
 
 export const CRUSADERMON_NX: Digimon = {
@@ -7049,7 +7319,10 @@ export const CRUSADERMON_NX: Digimon = {
 	description: 'A holy knight Digimon that is a member of the Royal Knights and king that rules over all Knightmon. More than basic morality Crusadermon is loyal to its own concept of justice and it will do anything for it. It believes that ruling through power is the most peaceful way, executing duties with ruthless efficiency while also showing compassion to the weak. Special moves are Spiral Masquerade, which slashes enemies with four blades from its body, and Fist of Athena, which shoots short-range shock waves.',
 	supportSkill: supportSkills.nxedgeStyle2,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		nxDlc: true
+	}
 };
 
 export const LEOPARDMON_NX: Digimon = {
@@ -7063,7 +7336,10 @@ export const LEOPARDMON_NX: Digimon = {
 	description: 'A holy knight Digimon recognized by the other Royal Knights as their top strategist. It can bring the other Royal Knights with their individual beliefs together to lead them, and goes into leopard mode when in battle alone to race across the battlefield. Special moves are Sword of Annihilation! Extinction Wave! (a downward swing of a beam blade) and Sword of Destruction! Black Aura Blast! (explosive energy).',
 	supportSkill: supportSkills.nxedgeStyle3,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		nxDlc: true
+	}
 };
 
 export const OMNIMON_NX: Digimon = {
@@ -7077,7 +7353,10 @@ export const OMNIMON_NX: Digimon = {
 	description: 'A holy knight Digimon and member of the Royal Knights that is fused from WarGreymon and MetalGarurumon with the will of those who wish for good. Combining the qualities of both, this Digimon is a flexible fighter. Its left arm is the shape of WarGreymon\'s with a sword and shield, and its right hand is the shape of MetalGarurumon\'s and is equipped with a cannon and missiles. Its cloak allows it to fly away from attacks. Supreme Cannon fires frigid air, and Transcendent Sword is an invincible blade.',
 	supportSkill: supportSkills.nxedgeStyle4,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		nxDlc: true
+	}
 };
 
 export const GALLANTMON_NX: Digimon = {
@@ -7091,7 +7370,10 @@ export const GALLANTMON_NX: Digimon = {
 	description: 'A holy knight Digimon that is a member of the Royal Knights, who are the highest ranked Digimon in Network Security, making it impossible to break the security rules in their presence. It has virus attributes and is also a guardian of the net. If this balance is broken, it can become very dangerous. It has holy armor made of refined, high-purity Chrome Digizoid. It has Holy Lance - Gram in its right hand, and Holy Shield - Aegis in its left. Special moves are Lightning Joust and Shield of the Just.',
 	supportSkill: supportSkills.nxedgeStyle5,
 	digivolvesFrom: [],
-	digivolvesTo: []
+	digivolvesTo: [],
+	digivolutionRequirements: {
+		nxDlc: true
+	}
 };
 //#endregion
 //#endregion
