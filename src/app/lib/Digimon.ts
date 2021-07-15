@@ -3,6 +3,7 @@ import { Attribute } from "./Attribute";
 import { DigimonType } from "./DigimonType";
 import { Stage } from "./Stage";
 import { SupportSkill } from "./SupportSkill";
+import { SkillMapping } from './SkillMapping';
 
 export interface Digimon {
 	fieldGuideNumber: number;
@@ -17,6 +18,7 @@ export interface Digimon {
 	equipmentSlots: number;
 	
 	supportSkill: SupportSkill;
+	skills: SkillMapping;
 
 	digivolvesFrom: Digimon[];
 	digivolvesTo: Digimon[];

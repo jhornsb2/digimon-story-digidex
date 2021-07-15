@@ -71,7 +71,7 @@ export const BUKAMON: SkillMapping = {
 	5: skills.hydroWater1
 };
 
-export const MOT1MON: SkillMapping = {
+export const MOTIMON: SkillMapping = {
 	1: skills.elasticBubbles,
 	5: skills.powerEnergy1
 };
