@@ -1,19 +1,5 @@
-<p>{{digimons.length}}</p>
-<p></p>
-<ol>
-  <li *ngFor="let e of digimons">
-    <div>{{e.name}}</div>
-    <div *ngIf="e.digivolvesFrom && e.digivolvesFrom.length > 0">
-      DIGIVOLVES FROM:
-      <ul>
-        <li *ngFor="let e2 of e.digivolvesFrom" >{{e2.name}}</li>
-      </ul>
-    </div>
-    <div *ngIf="e.digivolvesTo && e.digivolvesTo.length > 0">
-      DIGIVOLVES TO:
-      <ul>
-        <li *ngFor="let e2 of e.digivolvesTo" >{{e2.name}}</li>
-      </ul>
-    </div>
-  </li>
-</ol>
+<mat-list>
+  <mat-list-item *ngFor="let digimon of digimons">
+    {{ digimon.name }}
+  </mat-list-item>
+</mat-list>
