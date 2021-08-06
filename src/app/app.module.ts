@@ -9,12 +9,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DigidexComponent } from './digidex/digidex.component';
+import { DigimonSummaryComponent } from './digimon-summary/digimon-summary.component';
+import { DigimonDetailsComponent } from './digimon-details/digimon-details.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DigidexComponent
+    DigidexComponent,
+    DigimonSummaryComponent,
+    DigimonDetailsComponent
   ],
   imports: [
     BrowserModule,
