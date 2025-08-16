@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
 
   navigationItems = [
     { name: 'Home', route: '/home', icon: 'home' },
+    { name: 'Digimon', route: '/digimon', icon: 'pets' },
     { name: 'Skills', route: '/skills', icon: 'psychology' },
   ];
 

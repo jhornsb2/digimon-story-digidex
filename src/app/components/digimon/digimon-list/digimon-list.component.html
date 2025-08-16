@@ -1,0 +1,100 @@
+<div class="digimon-container">
+  <h1>Digimon Database</h1>
+
+  <!-- Filters -->
+  <div class="filters">
+    <mat-form-field appearance="outline">
+      <mat-label>Search Digimon</mat-label>
+      <input matInput [(ngModel)]="searchTerm" (input)="filterDigimon()" placeholder="Search by name or description" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Stage</mat-label>
+      <mat-select [(ngModel)]="selectedStage" (selectionChange)="filterDigimon()">
+        <mat-option value="">All Stages</mat-option>
+        <mat-option *ngFor="let stage of stages" [value]="stage">{{ stage }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Attribute</mat-label>
+      <mat-select [(ngModel)]="selectedAttribute" (selectionChange)="filterDigimon()">
+        <mat-option value="">All Attributes</mat-option>
+        <mat-option *ngFor="let attr of attributes" [value]="attr">{{ attr }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Type</mat-label>
+      <mat-select [(ngModel)]="selectedType" (selectionChange)="filterDigimon()">
+        <mat-option value="">All Types</mat-option>
+        <mat-option *ngFor="let type of digimonTypes" [value]="type">{{ type }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <!-- Digimon Grid -->
+  <div class="digimon-grid">
+    <mat-card
+      *ngFor="let digimon of filteredDigimon"
+      class="digimon-card"
+      (click)="openDigimonDetail(digimon)"
+      (keydown)="onDigimonCardKeyDown($event, digimon)"
+      tabindex="0"
+    >
+      <mat-card-header>
+        <div mat-card-avatar class="digimon-avatar">
+          <img [src]="getDigimonIconPath(digimon)" [alt]="digimon.name + ' icon'" />
+        </div>
+        <mat-card-title>
+          #{{ digimon.fieldGuideNumber.toString().padStart(3, '0') }} {{ digimon.name }}
+        </mat-card-title>
+        <mat-card-subtitle>
+          <mat-chip [class]="getStageClass(digimon.stage)">
+            {{ stages[digimon.stage] }}
+          </mat-chip>
+        </mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+        <div class="digimon-stats">
+          <div class="stat">
+            <span class="label">Attribute:</span>
+            <mat-chip [class]="getAttributeClass(digimon.attribute)">
+              {{ attributes[digimon.attribute] }}
+            </mat-chip>
+          </div>
+          <div class="stat">
+            <span class="label">Type:</span>
+            <mat-chip [class]="getTypeClass(digimon.type)">
+              {{ digimonTypes[digimon.type] }}
+            </mat-chip>
+          </div>
+          <div class="stat">
+            <span class="label">Memory:</span>
+            <span class="value">{{ digimon.memoryUsage }}</span>
+          </div>
+          <div class="stat">
+            <span class="label">Equipment Slots:</span>
+            <span class="value">{{ digimon.equipmentSlots }}</span>
+          </div>
+        </div>
+
+        <p class="description">
+          {{ digimon.description | slice: 0 : 120 }}{{ digimon.description.length > 120 ? '...' : '' }}
+        </p>
+
+        <div class="support-skill">
+          <span class="label">Support Skill:</span>
+          <span class="skill-name">{{ digimon.supportSkill.name || 'None' }}</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div *ngIf="filteredDigimon.length === 0" class="no-results">
+    <p>No Digimon match your current filters.</p>
+  </div>
+
+  <div class="results-count">Showing {{ filteredDigimon.length }} of {{ allDigimon.length }} Digimon</div>
+</div>

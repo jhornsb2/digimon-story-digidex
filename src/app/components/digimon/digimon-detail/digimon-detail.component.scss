@@ -1,0 +1,303 @@
+.digimon-detail-dialog {
+  max-width: 800px;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.digimon-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.dialog-header h2 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.dialog-content {
+  padding: 0;
+}
+
+.tab-content {
+  padding: 24px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 12px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.description-section h3,
+.support-skill-section h3,
+.digivolution-section h3,
+.requirements-section h3 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.description {
+  line-height: 1.6;
+  color: #555;
+  margin: 0 0 24px 0;
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.support-skill-card {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.support-skill-card h4 {
+  margin: 0 0 8px 0;
+  color: #1976d2;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skill-item {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.skill-details {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.skill-stat {
+  font-size: 0.9em;
+  color: #666;
+  font-weight: 500;
+}
+
+.skill-description {
+  margin: 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.digivolution-section {
+  margin-bottom: 24px;
+}
+
+.digivolution-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.digivolution-chip {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.requirements-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.requirement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.req-label {
+  font-weight: 500;
+  color: #666;
+  min-width: 60px;
+}
+
+.req-value {
+  font-weight: bold;
+  color: #333;
+}
+
+.stats-reqs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.stat-req {
+  background-color: #f5f5f5;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 40px;
+}
+
+.dialog-actions {
+  padding: 16px 24px;
+  justify-content: flex-end;
+}
+
+/* Include all the same color classes from the main component */
+.stage-training-1 {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+.stage-training-2 {
+  background-color: #e8f5e8;
+  color: #388e3c;
+}
+.stage-rookie {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+.stage-champion {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+.stage-ultimate {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+.stage-mega {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.stage-ultra {
+  background-color: linear-gradient(45deg, #ffd700, #ffed4e);
+  color: #333;
+}
+
+.attribute-fire {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+.attribute-water {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+.attribute-earth {
+  background-color: #efebe9;
+  color: #5d4037;
+}
+.attribute-wind {
+  background-color: #f1f8e9;
+  color: #689f38;
+}
+.attribute-electric {
+  background-color: #fff9c4;
+  color: #f57f17;
+}
+.attribute-plant {
+  background-color: #e8f5e8;
+  color: #388e3c;
+}
+.attribute-light {
+  background-color: #fffde7;
+  color: #fbc02d;
+}
+.attribute-dark {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+.attribute-neutral {
+  background-color: #fafafa;
+  color: #616161;
+}
+
+.type-vaccine {
+  background-color: #e8f5e8;
+  color: #2e7d2e;
+}
+.type-data {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+.type-virus {
+  background-color: #ffebee;
+  color: #c62828;
+}
+.type-free {
+  background-color: #fafafa;
+  color: #424242;
+}
+
+.skill-type-physical {
+  background-color: #ffebee;
+  color: #c62828;
+}
+.skill-type-magic {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+.skill-type-support {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+.skill-type-direct {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+.skill-type-fixed {
+  background-color: #fafafa;
+  color: #424242;
+}
