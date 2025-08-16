@@ -26,11 +26,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
       
       # Installs Node.js
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3.0.0
+        uses: actions/setup-node@v4
 
       # Installs Angular
       - name: Install Angular CLI
