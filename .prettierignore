@@ -1,0 +1,14 @@
+# Build outputs
+dist/
+node_modules/
+coverage/
+
+# Angular generated files
+*.d.ts
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
