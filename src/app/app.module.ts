@@ -8,19 +8,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DigidexComponent } from './digidex/digidex.component';
-import { DigimonSummaryComponent } from './digimon-summary/digimon-summary.component';
-import { DigimonDetailsComponent } from './digimon-details/digimon-details.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    DigidexComponent,
-    DigimonSummaryComponent,
-    DigimonDetailsComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -31,9 +22,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     MatButtonModule,
     MatListModule,
   ],
-  providers: [
-    provideAnimationsAsync()
-  ],
-  bootstrap: [AppComponent]
+  providers: [provideAnimationsAsync()],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
