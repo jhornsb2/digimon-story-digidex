@@ -8,9 +8,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
-import { Skill, SkillType, Attribute } from '../lib';
-import * as SkillConstants from '../lib/constants/SkillConstants';
-import { SkillDetailComponent } from '../skill-detail/skill-detail.component';
+import { Skill, SkillType, Attribute } from '../../lib';
+import * as SkillConstants from '../../lib/constants/SkillConstants';
+import { SkillDetailComponent } from '../../skill-detail/skill-detail.component';
 
 @Component({
   selector: 'app-skill-list',
