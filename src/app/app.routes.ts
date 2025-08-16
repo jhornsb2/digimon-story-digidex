@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { SkillListComponent } from './components/skill-list/skill-list.component';
+import { SkillListComponent } from './components/skill/skill-list/skill-list.component';
 import { DigimonListComponent } from './components/digimon/digimon-list/digimon-list.component';
 
 export const appRoutes: Routes = [

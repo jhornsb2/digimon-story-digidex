@@ -4,7 +4,7 @@ import { MAT_DIALOG_DATA, MatDialogRef, MatDialogModule } from '@angular/materia
 import { MatButtonModule } from '@angular/material/button';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatIconModule } from '@angular/material/icon';
-import { Attribute, Skill, SkillType } from '../../lib';
+import { Attribute, Skill, SkillType } from '../../../lib';
 
 @Component({
   selector: 'app-skill-detail',
