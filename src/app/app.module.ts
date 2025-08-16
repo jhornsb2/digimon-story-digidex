@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { DigidexComponent } from './digidex/digidex.component';
 import { DigimonSummaryComponent } from './digimon-summary/digimon-summary.component';
 import { DigimonDetailsComponent } from './digimon-details/digimon-details.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 
 @NgModule({
@@ -30,7 +31,9 @@ import { DigimonDetailsComponent } from './digimon-details/digimon-details.compo
     MatButtonModule,
     MatListModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
