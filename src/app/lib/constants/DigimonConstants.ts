@@ -1477,7 +1477,7 @@ export const AQUILAMON: Digimon = {
   memoryUsage: 8,
   equipmentSlots: 1,
   description:
-    'A gigantic bird Digimon with two massive horns growing from its head. Known as the \"Great Eagle of the Desert,\" it flies through the skies at mach speed and can seek out distant enemies with its keen eyesight. The horns on its head are immensely powerful when it glides down and rams into enemies. Many bird type Digimon are brutal, but Aquilamon respects decorum and obeys the orders of the master it pledged allegiance to without fail. Its special move Glide Horn charges enemies from the heavens.',
+    'A gigantic bird Digimon with two massive horns growing from its head. Known as the "Great Eagle of the Desert," it flies through the skies at mach speed and can seek out distant enemies with its keen eyesight. The horns on its head are immensely powerful when it glides down and rams into enemies. Many bird type Digimon are brutal, but Aquilamon respects decorum and obeys the orders of the master it pledged allegiance to without fail. Its special move Glide Horn charges enemies from the heavens.',
   supportSkill: supportSkills.windGuardians,
   skills: skillMappings.AQUILAMON,
   digivolvesFrom: [],
@@ -1732,7 +1732,7 @@ export const OGREMON: Digimon = {
   memoryUsage: 8,
   equipmentSlots: 1,
   description:
-    'A Digimon shaped like an oni, a being from Eastern mythology. Attacks from its dreadful, sinewy muscles carry tremendous destructive force. Smart but ill-tempered, anger is its main driving force and it devotes itself to destruction. It\'s belligerence earned it the name \"Digimon Hunter,\" as it will boldly face down opponents way more powerful than itself. The bone club in its right hand is a spoil from its victory against SkullGreymon. Its special move Pummel Whack unleashes two gigantic fists.',
+    'A Digimon shaped like an oni, a being from Eastern mythology. Attacks from its dreadful, sinewy muscles carry tremendous destructive force. Smart but ill-tempered, anger is its main driving force and it devotes itself to destruction. It\'s belligerence earned it the name "Digimon Hunter," as it will boldly face down opponents way more powerful than itself. The bone club in its right hand is a spoil from its victory against SkullGreymon. Its special move Pummel Whack unleashes two gigantic fists.',
   supportSkill: supportSkills.haymaker,
   skills: skillMappings.OGREMON,
   digivolvesFrom: [],
@@ -1754,7 +1754,7 @@ export const GUARDROMON: Digimon = {
   memoryUsage: 6,
   equipmentSlots: 2,
   description:
-    'A machine Digimon that protects computer network firewalls. Originally this Digimon would repel illegal network firewall entry together with \"Net Keeper\" Giromon. But a vicious hacker infected it with a computer virus for that impregnable defensive ability and used it to guard himself against a do gooder vaccine type group. Guardromon only has \"defend\" programmed into it, so it\'ll defend against invaders regardless of who they are. Special move Destruction Grenade pursues intruders to the ends of the earth.',
+    'A machine Digimon that protects computer network firewalls. Originally this Digimon would repel illegal network firewall entry together with "Net Keeper" Giromon. But a vicious hacker infected it with a computer virus for that impregnable defensive ability and used it to guard himself against a do gooder vaccine type group. Guardromon only has "defend" programmed into it, so it\'ll defend against invaders regardless of who they are. Special move Destruction Grenade pursues intruders to the ends of the earth.',
   supportSkill: supportSkills.metalEmpire,
   skills: skillMappings.GUARDROMON,
   digivolvesFrom: [],
@@ -1960,7 +1960,7 @@ export const GROWLMON: Digimon = {
   memoryUsage: 8,
   equipmentSlots: 1,
   description:
-    'A wizard dragon Digimon known as the \"Crimson wizard dragon.\" The childishness from its time as Guilmon is gone, having Digivolved into a wild, ferocious Digimon. It may be a virus type Digimon, but the rearing of its tamer makes it obedient, and it can fight for justice. Growlmon\'s roar is mighty enough to shake the ground. Before battle it unleashes a fierce roar to intimidate the enemy. Its special move Exhaust Flame emits a roar coupled with a powerful flame.',
+    'A wizard dragon Digimon known as the "Crimson wizard dragon." The childishness from its time as Guilmon is gone, having Digivolved into a wild, ferocious Digimon. It may be a virus type Digimon, but the rearing of its tamer makes it obedient, and it can fight for justice. Growlmon\'s roar is mighty enough to shake the ground. Before battle it unleashes a fierce roar to intimidate the enemy. Its special move Exhaust Flame emits a roar coupled with a powerful flame.',
   supportSkill: supportSkills.allRounder,
   skills: skillMappings.GROWLMON,
   digivolvesFrom: [],
@@ -2052,7 +2052,7 @@ export const CLOCKMON: Digimon = {
   memoryUsage: 6,
   equipmentSlots: 2,
   description:
-    'The guardian of time that governs computer clocks. It manages the \"time\" and \"space\" of all computers and networks. It can travel freely through time between 1900 and 1999. Having this very dangerous and terrifying ability is why it always maintains a neutral stance, never taking part in the battle between vaccine and virus types. If it were ever to take either side, the Digital World would supposedly collapse. Its special move Chrono Breaker destroys the \'time\' flowing through an enemy\'s body.',
+    'The guardian of time that governs computer clocks. It manages the "time" and "space" of all computers and networks. It can travel freely through time between 1900 and 1999. Having this very dangerous and terrifying ability is why it always maintains a neutral stance, never taking part in the battle between vaccine and virus types. If it were ever to take either side, the Digital World would supposedly collapse. Its special move Chrono Breaker destroys the \'time\' flowing through an enemy\'s body.',
   supportSkill: supportSkills.metalEmpire,
   skills: skillMappings.CLOCKMON,
   digivolvesFrom: [],
@@ -2212,7 +2212,7 @@ export const GOLEMON: Digimon = {
   memoryUsage: 6,
   equipmentSlots: 2,
   description:
-    'A rock mineral Digimon discovered when an ancient curse was digitally analyzed. An ancient forbidden spell is carved onto its back, the characters meaning \"epidemic\", \"curse\" and \"evil\". Apparently this is protects it from the gas it emits. About 9% of its body is rock data, with organic limbs attached to its body. An unfeeling Digimon that doesn\'t move unless ordered to.',
+    'A rock mineral Digimon discovered when an ancient curse was digitally analyzed. An ancient forbidden spell is carved onto its back, the characters meaning "epidemic", "curse" and "evil". Apparently this is protects it from the gas it emits. About 9% of its body is rock data, with organic limbs attached to its body. An unfeeling Digimon that doesn\'t move unless ordered to.',
   supportSkill: supportSkills.ironcladDefense,
   skills: skillMappings.GOLEMON,
   digivolvesFrom: [],
@@ -2511,7 +2511,7 @@ export const TANKMON: Digimon = {
   memoryUsage: 6,
   equipmentSlots: 2,
   description:
-    'An android Digimon shaped like a tank. Tankmon is nicknamed the \"Mercenary Digimon,\" supporting vaccine or virus types alike as long as there\'s profit to be made. It pulverizes foes with its heavyweight power and ordnance all over its body. It absolutely loves conflict, going wherever the battles take it. Conflicts always ceases whenever this loner Digimon goes. Its special move Hyper Cannon fires an ultra-powerful missile from the gun barrel on its head.',
+    'An android Digimon shaped like a tank. Tankmon is nicknamed the "Mercenary Digimon," supporting vaccine or virus types alike as long as there\'s profit to be made. It pulverizes foes with its heavyweight power and ordnance all over its body. It absolutely loves conflict, going wherever the battles take it. Conflicts always ceases whenever this loner Digimon goes. Its special move Hyper Cannon fires an ultra-powerful missile from the gun barrel on its head.',
   supportSkill: supportSkills.ironcladDefense,
   skills: skillMappings.TANKMON,
   digivolvesFrom: [],
@@ -2694,7 +2694,7 @@ export const NANIMON: Digimon = {
   memoryUsage: 6,
   equipmentSlots: 2,
   description:
-    'An unidentified Digimon that invaded from an other-dimensional Digital World. In the other dimension it\'s nicknamed \"Oyaji\" and was kept as a digital pet. It loves alcohol and violence, but once it invaded this Digital World (the details of which are still fuzzy), it Digivolved into the active creature known as Nanimon. Inspired by survival of the fittest, it threw itself into battle, but its actual power is unknown. Still, Nanimon has made it through many battles and evolved into its ultimate form.',
+    'An unidentified Digimon that invaded from an other-dimensional Digital World. In the other dimension it\'s nicknamed "Oyaji" and was kept as a digital pet. It loves alcohol and violence, but once it invaded this Digital World (the details of which are still fuzzy), it Digivolved into the active creature known as Nanimon. Inspired by survival of the fittest, it threw itself into battle, but its actual power is unknown. Still, Nanimon has made it through many battles and evolved into its ultimate form.',
   supportSkill: supportSkills.immobility,
   skills: skillMappings.NANIMON,
   digivolvesFrom: [],
@@ -3079,7 +3079,7 @@ export const LEOMON: Digimon = {
   memoryUsage: 8,
   equipmentSlots: 1,
   description:
-    'This beast humanoid Digimon is the king of beasts and a noble hero. Among many frenzied Digimon, it has a strong will and sense of justice, and defeats many villainous Digimon. It\'s also the rival of the avatar of destruction\', the \"Digimon Hunter\" Ogremon. Its brawny muscles are forged through daily training and can withstand any attack. Its ultimate secret, the special move Fist of the Beast King, chokes life out of its foes. It carries a sentient magical sword on its waist called the \"Beast Sword.\"',
+    'This beast humanoid Digimon is the king of beasts and a noble hero. Among many frenzied Digimon, it has a strong will and sense of justice, and defeats many villainous Digimon. It\'s also the rival of the avatar of destruction\', the "Digimon Hunter" Ogremon. Its brawny muscles are forged through daily training and can withstand any attack. Its ultimate secret, the special move Fist of the Beast King, chokes life out of its foes. It carries a sentient magical sword on its waist called the "Beast Sword."',
   supportSkill: supportSkills.animalColosseum,
   skills: skillMappings.LEOMON,
   digivolvesFrom: [],
@@ -3433,7 +3433,7 @@ export const ANGEWOMON: Digimon = {
   memoryUsage: 14,
   equipmentSlots: 3,
   description:
-    'A high angel Digimon with the appearance of a beautiful woman. It was promoted to an angel due to its considerably higher-level abilities. Angel Ultimate forms have eight wings and Champion forms have six wings. Angewomon is calm, but will not tolerate wickedness and will not hold back on its attacks. It is said that its soul and power is that of a female goddess in the Digital World. Special move is a powerful, lightning-charged Celestial Arrow called \"Heaven\'s Punishment.\"',
+    'A high angel Digimon with the appearance of a beautiful woman. It was promoted to an angel due to its considerably higher-level abilities. Angel Ultimate forms have eight wings and Champion forms have six wings. Angewomon is calm, but will not tolerate wickedness and will not hold back on its attacks. It is said that its soul and power is that of a female goddess in the Digital World. Special move is a powerful, lightning-charged Celestial Arrow called "Heaven\'s Punishment."',
   supportSkill: supportSkills.holyRing,
   skills: skillMappings.ANGEWOMON,
   digivolvesFrom: [],
@@ -3645,7 +3645,7 @@ export const GRADEMON: Digimon = {
   memoryUsage: 12,
   equipmentSlots: 3,
   description:
-    'This twin-bladed warrior Digimon is called the \"Golden Meteor\" because of the courageous way it cuts into the front lines. It exhibits incredible speed when wielding the Souken Gradalpha blades, but the truth is the twin swords are cursed, forcing their user into a berserker frenzy. Its overall power is wanting, but its sword skill surpasses that of the Royal Knight Crusadermon. Its royal blue cape is a badge of honor, proof of its achievements in battle. Its special move Cross Blade is a swift cross-shaped slicing blow.',
+    'This twin-bladed warrior Digimon is called the "Golden Meteor" because of the courageous way it cuts into the front lines. It exhibits incredible speed when wielding the Souken Gradalpha blades, but the truth is the twin swords are cursed, forcing their user into a berserker frenzy. Its overall power is wanting, but its sword skill surpasses that of the Royal Knight Crusadermon. Its royal blue cape is a badge of honor, proof of its achievements in battle. Its special move Cross Blade is a swift cross-shaped slicing blow.',
   supportSkill: supportSkills.haymaker,
   skills: skillMappings.GRADEMON,
   digivolvesFrom: [],
@@ -3692,7 +3692,7 @@ export const CYBERDRAMON: Digimon = {
   memoryUsage: 14,
   equipmentSlots: 2,
   description:
-    'A dragon humanoid Digimon protected with special rubber armor that can resist any attack. If a computer network virus Digimon makes an appearance, this Digimon will appear in an instant to eradicate it. However, it does not operate as part of the justice group \"Virus Busters,\" but instead works alone and its identity is murky. It is not only defensive but also has offensive strength. Its special move called Desolation Claw destroys enemy config data with a vibro-wave and removes surrounding space.',
+    'A dragon humanoid Digimon protected with special rubber armor that can resist any attack. If a computer network virus Digimon makes an appearance, this Digimon will appear in an instant to eradicate it. However, it does not operate as part of the justice group "Virus Busters," but instead works alone and its identity is murky. It is not only defensive but also has offensive strength. Its special move called Desolation Claw destroys enemy config data with a vibro-wave and removes surrounding space.',
   supportSkill: supportSkills.justiceUnion,
   skills: skillMappings.CYBERDRAMON,
   digivolvesFrom: [],
@@ -4050,7 +4050,7 @@ export const DURAMON: Digimon = {
   memoryUsage: 14,
   equipmentSlots: 3,
   description:
-    'An Ultimate Digimon that advanced bit by bit into another world as it continued to run. It knows not what future awaits it, but no matter what hardships come its way it will cut through it with the sword it strengthened through repeated training. When the greatsword on its back changes into a weapon, it exhibits unequalled offensive power. Its special move Glass Rush cuts enemies with its two blades, and Blinded shoots a beam from its chest that carves a \"20\" into any enemy it hits, causing heavy damage.',
+    'An Ultimate Digimon that advanced bit by bit into another world as it continued to run. It knows not what future awaits it, but no matter what hardships come its way it will cut through it with the sword it strengthened through repeated training. When the greatsword on its back changes into a weapon, it exhibits unequalled offensive power. Its special move Glass Rush cuts enemies with its two blades, and Blinded shoots a beam from its chest that carves a "20" into any enemy it hits, causing heavy damage.',
   supportSkill: supportSkills.legendArms,
   skills: skillMappings.DURAMON,
   digivolvesFrom: [],
@@ -4286,7 +4286,7 @@ export const PIXIMON: Digimon = {
   memoryUsage: 12,
   equipmentSlots: 3,
   description:
-    'A fairy Digimon that can use magic. It chants an advanced programming language from another dimension to make miracles happen. This mysterious Digimon can appear at any time and any place from thin air. Its body is small but it has the ability to seal the skills of its opponent and crush them with a powerful blow. It likes playing pranks and using its favorite spear called \"Fairy Tale\" on computers (although it doesn\'t wish harm). Its special move is a condensed computer virus called Pit Bomb.',
+    'A fairy Digimon that can use magic. It chants an advanced programming language from another dimension to make miracles happen. This mysterious Digimon can appear at any time and any place from thin air. Its body is small but it has the ability to seal the skills of its opponent and crush them with a powerful blow. It likes playing pranks and using its favorite spear called "Fairy Tale" on computers (although it doesn\'t wish harm). Its special move is a condensed computer virus called Pit Bomb.',
   supportSkill: supportSkills.fairyProtection,
   skills: skillMappings.PIXIMON,
   digivolvesFrom: [],
@@ -4608,7 +4608,7 @@ export const WARGROWLMON: Digimon = {
   memoryUsage: 14,
   equipmentSlots: 3,
   description:
-    'An Ultimate android Digimon known as a \"Giant Growlmon.\" As its name suggests, it\'s super large with half of its body made of powerful Chrome Digizoid. The two thrusters on its shoulders allow it to fly and engage in both aerial and ground attacks. Restraints on its jaw control its immense power, and an Assault Balancer extending from its back can stretch and pierce the enemy. Its Atomic Blaster special move is an atomic attack launched from its chest.',
+    'An Ultimate android Digimon known as a "Giant Growlmon." As its name suggests, it\'s super large with half of its body made of powerful Chrome Digizoid. The two thrusters on its shoulders allow it to fly and engage in both aerial and ground attacks. Restraints on its jaw control its immense power, and an Assault Balancer extending from its back can stretch and pierce the enemy. Its Atomic Blaster special move is an atomic attack launched from its chest.',
   supportSkill: supportSkills.allRounder,
   skills: skillMappings.WARGROWLMON,
   digivolvesFrom: [],
@@ -4701,7 +4701,7 @@ export const METALMAMEMON: Digimon = {
   memoryUsage: 10,
   equipmentSlots: 3,
   description:
-    'An android Digimon which is a Digivolved Mamemon (\"Smile Bomber\") and is even stronger. Just as its previous version, one may be deceived by its cute appearance. 90% of its body is machine, and its special move is called Energy Bomb which it fires from the Psycho Blaster equipped to its left arm. This special move has terrifying destructive power that can reliably kill foes.',
+    'An android Digimon which is a Digivolved Mamemon ("Smile Bomber") and is even stronger. Just as its previous version, one may be deceived by its cute appearance. 90% of its body is machine, and its special move is called Energy Bomb which it fires from the Psycho Blaster equipped to its left arm. This special move has terrifying destructive power that can reliably kill foes.',
   supportSkill: supportSkills.fullFunctionality,
   skills: skillMappings.METALMAMEMON,
   digivolvesFrom: [],
@@ -4818,7 +4818,7 @@ export const RAPIDMON: Digimon = {
   memoryUsage: 12,
   equipmentSlots: 3,
   description:
-    'An android Digimon Digivolved from Gargomon. It has the name \"Agile Hound\" as it can kill its foe with lightning quick speed. Also, its giant ear radar can detect movement even in the dark, sensing enemies from a distance. Its profile looks like a pruned poodle and in battle it has a neck protector. Its special move is a Golden Triangle that unleashes a ray which analyzes the data of enemies.',
+    'An android Digimon Digivolved from Gargomon. It has the name "Agile Hound" as it can kill its foe with lightning quick speed. Also, its giant ear radar can detect movement even in the dark, sensing enemies from a distance. Its profile looks like a pruned poodle and in battle it has a neck protector. Its special move is a Golden Triangle that unleashes a ray which analyzes the data of enemies.',
   supportSkill: supportSkills.bullsEye,
   skills: skillMappings.RAPIDMON,
   digivolvesFrom: [],
@@ -5383,7 +5383,7 @@ export const GANKOOMON: Digimon = {
   memoryUsage: 22,
   equipmentSlots: 2,
   description:
-    'A holy knight Digimon who has been promoted to th Royal Knights. It has a next-gen Hackmon as its companion and travels the Digital World to fight chaos. It assigns tough trials for Hackmon to earn the right to inherit its title as Royal Knight. It is stubborn and severe because it wants the best for Hackmon. Hinukamuy, who emerges from its boc does not speak, but it is always there to help. Gankoomon\'s rage call \"Quake! Blast! Fire! Father!\" with Hinukamuy and table-turning Table Flip are its special moves.',
+    'A holy knight Digimon who has been promoted to th Royal Knights. It has a next-gen Hackmon as its companion and travels the Digital World to fight chaos. It assigns tough trials for Hackmon to earn the right to inherit its title as Royal Knight. It is stubborn and severe because it wants the best for Hackmon. Hinukamuy, who emerges from its boc does not speak, but it is always there to help. Gankoomon\'s rage call "Quake! Blast! Fire! Father!" with Hinukamuy and table-turning Table Flip are its special moves.',
   supportSkill: supportSkills.masterSDisposition,
   skills: skillMappings.GANKOOMON,
   digivolvesFrom: [],
@@ -5408,7 +5408,7 @@ export const KINGETEMON: Digimon = {
   memoryUsage: 18,
   equipmentSlots: 3,
   description:
-    'The highest form of the self-styled King of Etemon\', an existence standing at even greater heights. It gets even more carried away, calling itself the King of Kings. It dons a dashing monkey suit with with \"king\" written on it, and it walks around like a star; and yet, other Digimon make fun of it. Its special move Monkey Wrench puts on a show to rob an enemy of its will to fight.',
+    'The highest form of the self-styled King of Etemon\', an existence standing at even greater heights. It gets even more carried away, calling itself the King of Kings. It dons a dashing monkey suit with with "king" written on it, and it walks around like a star; and yet, other Digimon make fun of it. Its special move Monkey Wrench puts on a show to rob an enemy of its will to fight.',
   supportSkill: supportSkills.muscleMonkeySuit,
   skills: skillMappings.KINGETEMON,
   digivolvesFrom: [],
@@ -5458,7 +5458,7 @@ export const GRANKUWAGAMON: Digimon = {
   memoryUsage: 18,
   equipmentSlots: 3,
   description:
-    'Mega form of a Kabuterimon Digimon. Considered terrible even among insectoid Digimon, an encounter with Grankuwagamon in the Digital World spells doom. It normally stays deep within the forest and only comes out at night, earning it the name \"Demon of the Deep Forest.\" It is the greatest rival of HerculesKabuterimon and the two will fight to the bitter end. Special move Dimension Scissor cuts through space itself.',
+    'Mega form of a Kabuterimon Digimon. Considered terrible even among insectoid Digimon, an encounter with Grankuwagamon in the Digital World spells doom. It normally stays deep within the forest and only comes out at night, earning it the name "Demon of the Deep Forest." It is the greatest rival of HerculesKabuterimon and the two will fight to the bitter end. Special move Dimension Scissor cuts through space itself.',
   supportSkill: supportSkills.natureSpirits,
   skills: skillMappings.GRANKUWAGAMON,
   digivolvesFrom: [],
@@ -5904,7 +5904,7 @@ export const DARKDRAMON: Digimon = {
   memoryUsage: 18,
   equipmentSlots: 3,
   description:
-    'An android Digimon guessed to be the trump card of D-Brigade. In a tactic to eliminate a target, codenamed \"BAN-TYO,\" a shot-down Tankdramon was collected and Digivolved into Darkdramon at D-Brigade\'s research facility. This process used large amounts of dark matter, causing it to go berserk and escape after Digivolving. D-Brigade currently has no idea where it could be. Its special move Dark Roar is a forbidden technique that shoots dark matter as an energy ball.',
+    'An android Digimon guessed to be the trump card of D-Brigade. In a tactic to eliminate a target, codenamed "BAN-TYO," a shot-down Tankdramon was collected and Digivolved into Darkdramon at D-Brigade\'s research facility. This process used large amounts of dark matter, causing it to go berserk and escape after Digivolving. D-Brigade currently has no idea where it could be. Its special move Dark Roar is a forbidden technique that shoots dark matter as an energy ball.',
   supportSkill: supportSkills.dBrigade,
   skills: skillMappings.DARKDRAMON,
   digivolvesFrom: [],
@@ -5928,7 +5928,7 @@ export const TIGERVESPAMON: Digimon = {
   memoryUsage: 18,
   equipmentSlots: 3,
   description:
-    'An android Digimon that protects the mysterious and covert Royal Base. Vespamon looks small and delicate, but it has an amazing stamina and is constantly moving in battle. It is said to be in the top 0.08% of the Honey Corp Royal Commando and has been given a code name \"Tiger\" because of its skill at solo combat. It wields the two Honey Corp Royal Meisters. Special move Mach Stinger V wields the two Royal Meisters to stab the enemy.',
+    'An android Digimon that protects the mysterious and covert Royal Base. Vespamon looks small and delicate, but it has an amazing stamina and is constantly moving in battle. It is said to be in the top 0.08% of the Honey Corp Royal Commando and has been given a code name "Tiger" because of its skill at solo combat. It wields the two Honey Corp Royal Meisters. Special move Mach Stinger V wields the two Royal Meisters to stab the enemy.',
   supportSkill: supportSkills.royalCommando,
   skills: skillMappings.TIGERVESPAMON,
   digivolvesFrom: [],
@@ -6130,7 +6130,7 @@ export const DURANDAMON: Digimon = {
   memoryUsage: 20,
   equipmentSlots: 2,
   description:
-    'A Digimon with the ultimate holy blade that Digivolved by polishing its sword to its limits and gaining \"legendary sword\" data from myths and games. Wielding Durandamon in sword form is said to assure victory, and it boasts the greatest strength of the Legend-Arms. Its tremendous slash can cleave any defense in twain, but records say that only the strongest Legend-Arms that change into shields can withstand it. Its special move Zwei Glänze cuts enemies with twin swords loaded with fighting spirit.',
+    'A Digimon with the ultimate holy blade that Digivolved by polishing its sword to its limits and gaining "legendary sword" data from myths and games. Wielding Durandamon in sword form is said to assure victory, and it boasts the greatest strength of the Legend-Arms. Its tremendous slash can cleave any defense in twain, but records say that only the strongest Legend-Arms that change into shields can withstand it. Its special move Zwei Glänze cuts enemies with twin swords loaded with fighting spirit.',
   supportSkill: supportSkills.legendArms,
   skills: skillMappings.DURANDAMON,
   digivolvesFrom: [],
@@ -6199,7 +6199,7 @@ export const DORUGORAMON: Digimon = {
   memoryUsage: 18,
   equipmentSlots: 2,
   description:
-    'Dorugoramon is an imaginary Digimon born from the daydream of a DigiCore. It is a form Digivolved when the creativity of the DigiCore itself was miraculously released from the interface on its brow. Perhaps because of the powerful life energy data of the legendary \"dragon\" within its DigiCore, this DigiCore created form is the powerful avatar of \"destruction\", and the incarnation of the \"ultimate enemy\". Its special move Brave Metal is a fierce charge containing its body and soul.',
+    'Dorugoramon is an imaginary Digimon born from the daydream of a DigiCore. It is a form Digivolved when the creativity of the DigiCore itself was miraculously released from the interface on its brow. Perhaps because of the powerful life energy data of the legendary "dragon" within its DigiCore, this DigiCore created form is the powerful avatar of "destruction", and the incarnation of the "ultimate enemy". Its special move Brave Metal is a fierce charge containing its body and soul.',
   supportSkill: supportSkills.haymaker,
   skills: skillMappings.DORUGORAMON,
   digivolvesFrom: [],
@@ -7472,7 +7472,7 @@ export const CHAOSMON_VA: Digimon = {
   memoryUsage: 25,
   equipmentSlots: 3,
   description:
-    '\"Chaosmon\" is the codename for a Digimon that should not exist, a bug considered impossible according to the Central Dogma of the Digital World. This Chaosmon appears to have been born of a DNA Digivolution between Bancho Leomon and Varodurumon, whose faces can be seen on its arms. Its special moves are Bantyo Blade, which unleashes a barrage of strikes from the Bantyo Blade on its Bancho Arm, and Aurora Blaster, which shoots purifying light from its Valdur Arm.',
+    '"Chaosmon" is the codename for a Digimon that should not exist, a bug considered impossible according to the Central Dogma of the Digital World. This Chaosmon appears to have been born of a DNA Digivolution between Bancho Leomon and Varodurumon, whose faces can be seen on its arms. Its special moves are Bantyo Blade, which unleashes a barrage of strikes from the Bantyo Blade on its Bancho Arm, and Aurora Blaster, which shoots purifying light from its Valdur Arm.',
   supportSkill: supportSkills.unstableSingularity,
   skills: skillMappings.CHAOSMON_VA,
   digivolvesFrom: [],
@@ -7720,7 +7720,7 @@ export const RYUDAMON: Digimon = {
   memoryUsage: 5,
   equipmentSlots: 1,
   description:
-    'A Beast Digimon considered an experimental \"Prototype Digimon\" from before its discovery due to the archaic interface on its forehead. Although its body is clad in Japanese armor with high defensive capabilities, it is very nimble and fights by boldly leaping at the opponent\'s chest. It is devoted to the study of combat techniques and endowed with samurai spirit. In the deepest parts of its DigiCore, fearsome combat data of dragons and warlords from Japanese mythology are hidden. It has the potential to grow into a mighty Digimon.',
+    'A Beast Digimon considered an experimental "Prototype Digimon" from before its discovery due to the archaic interface on its forehead. Although its body is clad in Japanese armor with high defensive capabilities, it is very nimble and fights by boldly leaping at the opponent\'s chest. It is devoted to the study of combat techniques and endowed with samurai spirit. In the deepest parts of its DigiCore, fearsome combat data of dragons and warlords from Japanese mythology are hidden. It has the potential to grow into a mighty Digimon.',
   supportSkill: supportSkills.samuraiSpirit,
   skills: skillMappings.RYUDAMON,
   digivolvesFrom: [],
@@ -7743,7 +7743,7 @@ export const GINRYUMON: Digimon = {
   memoryUsage: 8,
   equipmentSlots: 1,
   description:
-    'A Beast Dragon Digimon whose entire body is clad in sturdy Japanese armor. Despite its appearance, it has a light body that allows it to glide gracefully through the air while parrying enemy attacks. It has the courage to parry enemy attacks using its own body, and eyesight to detect enemy attacks right before they hit. It is thought to be a Digivolved \"Prototype Digimon\". Its special move is Metal Armor Blade, by which it impales the enemy with an iron spear. Its signature move is Boujinha, in which it charges the enemy while parrying their attack with its armor.',
+    'A Beast Dragon Digimon whose entire body is clad in sturdy Japanese armor. Despite its appearance, it has a light body that allows it to glide gracefully through the air while parrying enemy attacks. It has the courage to parry enemy attacks using its own body, and eyesight to detect enemy attacks right before they hit. It is thought to be a Digivolved "Prototype Digimon". Its special move is Metal Armor Blade, by which it impales the enemy with an iron spear. Its signature move is Boujinha, in which it charges the enemy while parrying their attack with its armor.',
   supportSkill: supportSkills.samuraiSpirit,
   skills: skillMappings.GINRYUMON,
   digivolvesFrom: [],
