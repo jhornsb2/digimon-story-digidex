@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout code
         uses: actions/checkout@v5
-      
+
       # Installs Node.js
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
@@ -35,11 +35,11 @@ jobs:
       # Installs Angular
       - name: Install Angular CLI
         run: npm install -g @angular/cli
-        
+
       # Installs dependencies
       - name: Install Dependencies
         run: npm install
-      
+
       # Builds the application
       - name: Build Application
         run: ng build --base-href="/digimon-story-digidex/" --configuration production

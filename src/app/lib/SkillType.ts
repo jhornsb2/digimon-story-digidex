@@ -1,7 +1,7 @@
 export enum SkillType {
-	Support,
-	Physical,
-	Magic,
-	Direct,
-	Fixed
+  Support,
+  Physical,
+  Magic,
+  Direct,
+  Fixed,
 }

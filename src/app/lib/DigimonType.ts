@@ -1,6 +1,6 @@
 export enum DigimonType {
-	Free,
-	Data,
-	Vaccine,
-	Virus,
+  Free,
+  Data,
+  Vaccine,
+  Virus,
 }

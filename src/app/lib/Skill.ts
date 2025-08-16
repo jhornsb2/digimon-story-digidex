@@ -1,12 +1,12 @@
 import { SkillType } from './SkillType';
-import { Attribute } from "./Attribute";
+import { Attribute } from './Attribute';
 
 export interface Skill {
-	name: string;
-	spCost: number;
-	power: number;
-	attribute: Attribute;
-	skillType: SkillType;
-	isInheritable: boolean;
-	description: string;
+  name: string;
+  spCost: number;
+  power: number;
+  attribute: Attribute;
+  skillType: SkillType;
+  isInheritable: boolean;
+  description: string;
 }
