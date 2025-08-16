@@ -12,7 +12,9 @@
       <mat-label>Skill Type</mat-label>
       <mat-select [(ngModel)]="selectedSkillType" (selectionChange)="filterSkills()">
         <mat-option value="">All Types</mat-option>
-        <mat-option *ngFor="let type of skillTypes" [value]="type">{{ type }}</mat-option>
+        @for (type of skillTypes; track type) {
+          <mat-option [value]="type">{{ type }}</mat-option>
+        }
       </mat-select>
     </mat-form-field>
 
@@ -20,7 +22,9 @@
       <mat-label>Attribute</mat-label>
       <mat-select [(ngModel)]="selectedAttribute" (selectionChange)="filterSkills()">
         <mat-option value="">All Attributes</mat-option>
-        <mat-option *ngFor="let attr of attributes" [value]="attr">{{ attr }}</mat-option>
+        @for (attr of attributes; track attr) {
+          <mat-option [value]="attr">{{ attr }}</mat-option>
+        }
       </mat-select>
     </mat-form-field>
 
@@ -36,53 +40,60 @@
 
   <!-- Skills Grid -->
   <div class="skills-grid">
-    <mat-card
-      *ngFor="let skill of filteredSkills"
-      class="skill-card"
-      (click)="openSkillDetail(skill)"
-      (keydown)="onSkillCardKeyDown($event, skill)"
-      [class.inheritable]="skill.isInheritable"
-      tabindex="0"
-    >
-      <mat-card-header>
-        <mat-card-title>{{ skill.name }}</mat-card-title>
-        <mat-card-subtitle>
-          <mat-chip [class]="'skill-type-' + skillTypes[skill.skillType].toString().toLowerCase()">
-            {{ skillTypes[skill.skillType] }}
-          </mat-chip>
-        </mat-card-subtitle>
-      </mat-card-header>
-
-      <mat-card-content>
-        <div class="skill-stats">
-          <div class="stat">
-            <span class="label">SP Cost:</span>
-            <span class="value">{{ skill.spCost }}</span>
-          </div>
-          <div class="stat" *ngIf="skill.power > 0">
-            <span class="label">Power:</span>
-            <span class="value">{{ skill.power }}</span>
-          </div>
-          <div class="stat">
-            <span class="label">Attribute:</span>
-            <mat-chip [class]="'attribute-' + attributes[skill.attribute].toString().toLowerCase()">
-              {{ attributes[skill.attribute] }}
+    @for (skill of filteredSkills; track skill.name) {
+      <mat-card
+        class="skill-card"
+        (click)="openSkillDetail(skill)"
+        (keydown)="onSkillCardKeyDown($event, skill)"
+        [class.inheritable]="skill.isInheritable"
+        tabindex="0"
+      >
+        <mat-card-header>
+          <mat-card-title>{{ skill.name }}</mat-card-title>
+          <mat-card-subtitle>
+            <mat-chip [class]="'skill-type-' + skillTypes[skill.skillType].toString().toLowerCase()">
+              {{ skillTypes[skill.skillType] }}
             </mat-chip>
+          </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+          <div class="skill-stats">
+            <div class="stat">
+              <span class="label">SP Cost:</span>
+              <span class="value">{{ skill.spCost }}</span>
+            </div>
+            @if (skill.power > 0) {
+              <div class="stat">
+                <span class="label">Power:</span>
+                <span class="value">{{ skill.power }}</span>
+              </div>
+            }
+            <div class="stat">
+              <span class="label">Attribute:</span>
+              <mat-chip [class]="'attribute-' + attributes[skill.attribute].toString().toLowerCase()">
+                {{ attributes[skill.attribute] }}
+              </mat-chip>
+            </div>
           </div>
-        </div>
 
-        <p class="description">
-          {{ skill.description | slice: 0 : 100 }}{{ skill.description.length > 100 ? '...' : '' }}
-        </p>
+          <p class="description">
+            {{ skill.description | slice: 0 : 100 }}{{ skill.description.length > 100 ? '...' : '' }}
+          </p>
 
-        <div class="skill-badges">
-          <mat-chip *ngIf="skill.isInheritable" class="inheritable-badge">Inheritable</mat-chip>
-        </div>
-      </mat-card-content>
-    </mat-card>
+          <div class="skill-badges">
+            @if (skill.isInheritable) {
+              <mat-chip class="inheritable-badge">Inheritable</mat-chip>
+            }
+          </div>
+        </mat-card-content>
+      </mat-card>
+    }
   </div>
 
-  <div *ngIf="filteredSkills.length === 0" class="no-results">
-    <p>No skills match your current filters.</p>
-  </div>
+  @if (filteredSkills.length === 0) {
+    <div class="no-results">
+      <p>No skills match your current filters.</p>
+    </div>
+  }
 </div>

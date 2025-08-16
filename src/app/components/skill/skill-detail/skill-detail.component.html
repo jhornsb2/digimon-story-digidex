@@ -19,10 +19,12 @@
         <div class="stat-value">{{ skill.spCost }}</div>
       </div>
 
-      <div class="stat-item" *ngIf="skill.power > 0">
-        <div class="stat-label">Power</div>
-        <div class="stat-value">{{ skill.power }}</div>
-      </div>
+      @if (skill.power > 0) {
+        <div class="stat-item">
+          <div class="stat-label">Power</div>
+          <div class="stat-value">{{ skill.power }}</div>
+        </div>
+      }
 
       <div class="stat-item">
         <div class="stat-label">Attribute</div>
@@ -48,12 +50,16 @@
       <p class="description">{{ skill.description }}</p>
     </div>
 
-    <div class="skill-analysis" *ngIf="getSkillAnalysis(skill) as analysis">
-      <h3>Analysis</h3>
-      <div class="analysis-tags">
-        <mat-chip *ngFor="let tag of analysis" class="analysis-tag">{{ tag }}</mat-chip>
+    @if (getSkillAnalysis(skill); as analysis) {
+      <div class="skill-analysis">
+        <h3>Analysis</h3>
+        <div class="analysis-tags">
+          @for (tag of analysis; track tag) {
+            <mat-chip class="analysis-tag">{{ tag }}</mat-chip>
+          }
+        </div>
       </div>
-    </div>
+    }
   </div>
 
   <div mat-dialog-actions class="dialog-actions">
