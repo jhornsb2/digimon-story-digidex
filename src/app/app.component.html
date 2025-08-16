@@ -2,12 +2,22 @@
   <button mat-icon-button (click)="sideNav.toggle()">
     <mat-icon>menu</mat-icon>
   </button>
-  <span>Title</span>
+  <span class="toolbar-title">{{ currentPageTitle }}</span>
 </mat-toolbar>
 <mat-sidenav-container [hasBackdrop]="true">
   <mat-sidenav #sideNav mode="over">
     <mat-nav-list>
-      <mat-list-item routerLink="/skills">Skills</mat-list-item>
+      @for (item of navigationItems; track item.route) {
+        <mat-list-item
+          [routerLink]="item.route"
+          (click)="sideNav.close()"
+          (keydown)="sideNav.close()"
+          [class.active]="isCurrentRoute(item.route)"
+        >
+          <mat-icon matListItemIcon>{{ item.icon }}</mat-icon>
+          <span matListItemTitle>{{ item.name }}</span>
+        </mat-list-item>
+      }
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
