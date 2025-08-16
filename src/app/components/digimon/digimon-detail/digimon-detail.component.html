@@ -70,14 +70,14 @@
               <div class="skill-header">
                 <span class="skill-name">{{ skill.name }}</span>
                 <mat-chip [class]="getSkillTypeClass(skill.skillType)">
-                  {{ skill.skillType }}
+                  {{ skillTypes[skill.skillType] }}
                 </mat-chip>
               </div>
               <div class="skill-details">
                 <span class="skill-stat">SP: {{ skill.spCost }}</span>
                 <span class="skill-stat" *ngIf="skill.power > 0">Power: {{ skill.power }}</span>
                 <mat-chip [class]="getAttributeClass(skill.attribute)" class="skill-attribute">
-                  {{ skill.attribute }}
+                  {{ attributes[skill.attribute] }}
                 </mat-chip>
               </div>
               <p class="skill-description">{{ skill.description }}</p>
