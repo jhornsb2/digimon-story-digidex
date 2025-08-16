@@ -57,7 +57,7 @@
           </mat-card-title>
           <mat-card-subtitle>
             <mat-chip [class]="getStageClass(digimon.stage)">
-              {{ stages[digimon.stage] }}
+              {{ getStageName(digimon.stage) }}
             </mat-chip>
           </mat-card-subtitle>
         </mat-card-header>
@@ -67,7 +67,7 @@
             <div class="stat">
               <span class="label">Attribute:</span>
               <mat-chip [class]="getAttributeClass(digimon.attribute)">
-                {{ attributes[digimon.attribute] }}
+                {{ getAttributeName(digimon.attribute) }}
               </mat-chip>
             </div>
             <div class="stat">

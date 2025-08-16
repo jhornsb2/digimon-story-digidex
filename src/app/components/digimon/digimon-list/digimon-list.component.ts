@@ -37,10 +37,11 @@ export class DigimonListComponent implements OnInit {
   selectedAttribute = '';
   selectedType = '';
 
-  stages = Object.values(Stage);
-  attributes = Object.values(Attribute);
-  digimonTypes = Object.values(DigimonType);
-  skillTypes = Object.values(SkillType);
+  // Get string values only, filtering out numeric keys
+  stages = Object.values(Stage).filter(value => typeof value === 'string');
+  attributes = Object.values(Attribute).filter(value => typeof value === 'string');
+  digimonTypes = Object.values(DigimonType).filter(value => typeof value === 'string');
+  skillTypes = Object.values(SkillType).filter(value => typeof value === 'string');
 
   constructor(private readonly dialog: MatDialog) {}
 
@@ -66,11 +67,11 @@ export class DigimonListComponent implements OnInit {
         digimon.name.toLowerCase().includes(this.searchTerm.toLowerCase()) ||
         digimon.description.toLowerCase().includes(this.searchTerm.toLowerCase());
 
-      const matchesStage = !this.selectedStage || this.stages[digimon.stage] === this.selectedStage;
+      const matchesStage = !this.selectedStage || Stage[digimon.stage] === this.selectedStage;
 
-      const matchesAttribute = !this.selectedAttribute || this.attributes[digimon.attribute] === this.selectedAttribute;
+      const matchesAttribute = !this.selectedAttribute || Attribute[digimon.attribute] === this.selectedAttribute;
 
-      const matchesType = !this.selectedType || this.digimonTypes[digimon.type] === this.selectedType;
+      const matchesType = !this.selectedType || DigimonType[digimon.type] === this.selectedType;
 
       return matchesSearch && matchesStage && matchesAttribute && matchesType;
     });
@@ -98,15 +99,28 @@ export class DigimonListComponent implements OnInit {
     return `assets/digimon-icons/${paddedNumber}-${iconName}-icon.png`;
   }
 
-  getStageClass(stage: number): string {
-    return 'stage-' + this.stages[stage].toString().toLowerCase().replace(/\s+/g, '-');
+  // Helper methods for display
+  getStageName(stage: Stage): string {
+    return Stage[stage];
   }
 
-  getAttributeClass(attribute: number): string {
-    return 'attribute-' + this.attributes[attribute].toString().toLowerCase();
+  getAttributeName(attribute: Attribute): string {
+    return Attribute[attribute];
   }
 
-  getTypeClass(type: number): string {
-    return 'type-' + this.digimonTypes[type].toString().toLowerCase();
+  getTypeName(type: DigimonType): string {
+    return DigimonType[type];
+  }
+
+  getStageClass(stage: Stage): string {
+    return 'stage-' + Stage[stage].toLowerCase().replace(/\s+/g, '-');
+  }
+
+  getAttributeClass(attribute: Attribute): string {
+    return 'attribute-' + Attribute[attribute].toLowerCase().replace(/\s+/g, '-');
+  }
+
+  getTypeClass(type: DigimonType): string {
+    return 'type-' + DigimonType[type].toLowerCase().replace(/\s+/g, '-');
   }
 }
