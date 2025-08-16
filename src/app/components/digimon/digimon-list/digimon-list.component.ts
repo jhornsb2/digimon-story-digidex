@@ -95,7 +95,10 @@ export class DigimonListComponent implements OnInit {
 
   getDigimonIconPath(digimon: Digimon): string {
     const paddedNumber = digimon.fieldGuideNumber.toString().padStart(3, '0');
-    const iconName = digimon.name.toLowerCase().replace(/[\s\-.]/g, '-');
+    const iconName = digimon.name
+      .toLowerCase()
+      .replace(/[\s\\-]/g, '-')
+      .replace(/[.(<>)]/g, '');
     return `assets/digimon-icons/${paddedNumber}-${iconName}-icon.png`;
   }
 
