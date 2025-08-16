@@ -53,92 +53,112 @@
             <p class="description">{{ digimon.description }}</p>
           </div>
 
-          <div class="support-skill-section" *ngIf="digimon.supportSkill">
-            <h3>Support Skill</h3>
-            <div class="support-skill-card">
-              <h4>{{ digimon.supportSkill.name }}</h4>
-              <p>{{ digimon.supportSkill.description }}</p>
+          @if (digimon.supportSkill) {
+            <div class="support-skill-section">
+              <h3>Support Skill</h3>
+              <div class="support-skill-card">
+                <h4>{{ digimon.supportSkill.name }}</h4>
+                <p>{{ digimon.supportSkill.description }}</p>
+              </div>
             </div>
-          </div>
+          }
         </div>
       </mat-tab>
 
       <mat-tab label="Skills">
         <div class="tab-content">
-          <div class="skills-list" *ngIf="getSkillsArray().length > 0; else noSkills">
-            <div *ngFor="let skill of getSkillsArray()" class="skill-item">
-              <div class="skill-header">
-                <span class="skill-name">{{ skill.name }}</span>
-                <mat-chip [class]="getSkillTypeClass(skill.skillType)">
-                  {{ skillTypes[skill.skillType] }}
-                </mat-chip>
-              </div>
-              <div class="skill-details">
-                <span class="skill-stat">SP: {{ skill.spCost }}</span>
-                <span class="skill-stat" *ngIf="skill.power > 0">Power: {{ skill.power }}</span>
-                <mat-chip [class]="getAttributeClass(skill.attribute)" class="skill-attribute">
-                  {{ attributes[skill.attribute] }}
-                </mat-chip>
-              </div>
-              <p class="skill-description">{{ skill.description }}</p>
+          @if (getSkillsArray().length === 0) {
+            <p>No skills available for this Digimon.</p>
+          } @else {
+            <div class="skills-list">
+              @for (skill of getSkillsArray(); track skill.name) {
+                <div class="skill-item">
+                  <div class="skill-header">
+                    <span class="skill-name">{{ skill.name }}</span>
+                    <mat-chip [class]="getSkillTypeClass(skill.skillType)">
+                      {{ skillTypes[skill.skillType] }}
+                    </mat-chip>
+                  </div>
+                  <div class="skill-details">
+                    <span class="skill-stat">SP: {{ skill.spCost }}</span>
+                    @if (skill.power > 0) {
+                      <span class="skill-stat">Power: {{ skill.power }}</span>
+                    }
+                    <mat-chip [class]="getAttributeClass(skill.attribute)" class="skill-attribute">
+                      {{ attributes[skill.attribute] }}
+                    </mat-chip>
+                  </div>
+                  <p class="skill-description">{{ skill.description }}</p>
+                </div>
+              }
             </div>
-          </div>
-          <ng-template #noSkills>
-            <p class="no-data">No skills available for this Digimon.</p>
-          </ng-template>
+          }
         </div>
       </mat-tab>
 
       <mat-tab label="Digivolution">
         <div class="tab-content">
-          <div class="digivolution-section" *ngIf="digimon.digivolvesFrom && digimon.digivolvesFrom.length > 0">
-            <h3>Digivolves From</h3>
-            <div class="digivolution-list">
-              <mat-chip *ngFor="let from of digimon.digivolvesFrom" class="digivolution-chip">
-                {{ from.name }}
-              </mat-chip>
-            </div>
-          </div>
-
-          <div class="digivolution-section" *ngIf="digimon.digivolvesTo && digimon.digivolvesTo.length > 0">
-            <h3>Digivolves To</h3>
-            <div class="digivolution-list">
-              <mat-chip *ngFor="let to of digimon.digivolvesTo" class="digivolution-chip">
-                {{ to.name }}
-              </mat-chip>
-            </div>
-          </div>
-
-          <div class="requirements-section" *ngIf="digimon.digivolutionRequirements">
-            <h3>Digivolution Requirements</h3>
-            <div class="requirements-grid">
-              <div class="requirement" *ngIf="digimon.digivolutionRequirements.level">
-                <span class="req-label">Level:</span>
-                <span class="req-value">{{ digimon.digivolutionRequirements.level }}</span>
-              </div>
-              <div class="requirement" *ngIf="digimon.digivolutionRequirements.stats">
-                <span class="req-label">Stats:</span>
-                <div class="stats-reqs">
-                  <span
-                    *ngFor="let stat of getStatRequirements(digimon.digivolutionRequirements.stats)"
-                    class="stat-req"
-                  >
-                    {{ stat }}
-                  </span>
-                </div>
+          @if (digimon.digivolvesFrom.length > 0) {
+            <div class="digivolution-section">
+              <h3>Digivolves From</h3>
+              <div class="digivolution-list">
+                @for (from of digimon.digivolvesFrom; track from.name) {
+                  <mat-chip class="digivolution-chip">
+                    {{ from.name }}
+                  </mat-chip>
+                }
               </div>
             </div>
-          </div>
+          }
 
-          <div
-            *ngIf="
-              (!digimon.digivolvesFrom || digimon.digivolvesFrom.length === 0) &&
-              (!digimon.digivolvesTo || digimon.digivolvesTo.length === 0)
-            "
-            class="no-data"
-          >
-            No digivolution information available.
-          </div>
+          @if (digimon.digivolvesTo.length > 0) {
+            <div class="digivolution-section">
+              <h3>Digivolves To</h3>
+              <div class="digivolution-list">
+                @if (digimon.digivolvesTo && digimon.digivolvesTo.length > 0) {
+                  @for (to of digimon.digivolvesTo; track to.name) {
+                    <mat-chip class="digivolution-chip">
+                      {{ to.name }}
+                    </mat-chip>
+                  }
+                }
+              </div>
+            </div>
+          }
+
+          @if (digimon.digivolutionRequirements) {
+            <div class="requirements-section">
+              <h3>Digivolution Requirements</h3>
+              <div class="requirements-grid">
+                @if (digimon.digivolutionRequirements.level) {
+                  <div class="requirement">
+                    <span class="req-label">Level:</span>
+                    <span class="req-value">{{ digimon.digivolutionRequirements.level }}</span>
+                  </div>
+                }
+
+                @if (digimon.digivolutionRequirements.stats) {
+                  <div class="requirement">
+                    <span class="req-label">Stats:</span>
+                    <div class="stats-reqs">
+                      @for (stat of getStatRequirements(digimon.digivolutionRequirements.stats); track stat) {
+                        <span class="stat-req">
+                          {{ stat }}
+                        </span>
+                      }
+                    </div>
+                  </div>
+                }
+              </div>
+            </div>
+          }
+
+          @if (
+            (!digimon.digivolvesFrom || digimon.digivolvesFrom.length === 0) &&
+            (!digimon.digivolvesTo || digimon.digivolvesTo.length === 0)
+          ) {
+            <div class="no-data">No digivolution information available.</div>
+          }
         </div>
       </mat-tab>
     </mat-tab-group>
