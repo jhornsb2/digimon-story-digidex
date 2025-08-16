@@ -250,7 +250,7 @@ export const PAGUMON: Digimon = {
 };
 
 export const YOKOMON: Digimon = {
-  fieldGuideNumber: 13,
+  fieldGuideNumber: 14,
   name: 'Yokomon',
   description:
     'A lesser bulb Digimon with a huge flower blooming on its head. It can move around by swinging its root-shaped feelers, and can even float through the air for short distances. Its curious nature and upbeat movements make for an adorable figure. They tend to live in packs, numbering somewhere between the dozens and hundreds.',
