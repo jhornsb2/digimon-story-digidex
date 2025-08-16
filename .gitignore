@@ -53,3 +53,6 @@ Thumbs.db
 
 #Generatable Data
 data-pullers/
+
+# Test results and coverage reports
+coverage/
