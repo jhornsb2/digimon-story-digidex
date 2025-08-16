@@ -6,7 +6,9 @@
 </mat-toolbar>
 <mat-sidenav-container [hasBackdrop]="true">
   <mat-sidenav #sideNav mode="over">
-    <mat-nav-list> </mat-nav-list>
+    <mat-nav-list>
+      <mat-list-item routerLink="/skills">Skills</mat-list-item>
+    </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
     <router-outlet></router-outlet>

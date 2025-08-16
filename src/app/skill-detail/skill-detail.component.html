@@ -1,0 +1,62 @@
+<div class="skill-detail-dialog">
+  <div mat-dialog-title class="dialog-header">
+    <h2>{{ skill.name }}</h2>
+    <button mat-icon-button mat-dialog-close>
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+  <div mat-dialog-content class="dialog-content">
+    <div class="skill-type-badge">
+      <mat-chip [class]="'skill-type-' + skillTypes[skill.skillType].toString().toLowerCase()">
+        {{ skillTypes[skill.skillType] }}
+      </mat-chip>
+    </div>
+
+    <div class="skill-stats-grid">
+      <div class="stat-item">
+        <div class="stat-label">SP Cost</div>
+        <div class="stat-value">{{ skill.spCost }}</div>
+      </div>
+
+      <div class="stat-item" *ngIf="skill.power > 0">
+        <div class="stat-label">Power</div>
+        <div class="stat-value">{{ skill.power }}</div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-label">Attribute</div>
+        <div class="stat-value">
+          <mat-chip [class]="'attribute-' + attributes[skill.attribute].toString().toLowerCase()">
+            {{ attributes[skill.attribute] }}
+          </mat-chip>
+        </div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-label">Inheritable</div>
+        <div class="stat-value">
+          <mat-chip [class]="skill.isInheritable ? 'inheritable-yes' : 'inheritable-no'">
+            {{ skill.isInheritable ? 'Yes' : 'No' }}
+          </mat-chip>
+        </div>
+      </div>
+    </div>
+
+    <div class="description-section">
+      <h3>Description</h3>
+      <p class="description">{{ skill.description }}</p>
+    </div>
+
+    <div class="skill-analysis" *ngIf="getSkillAnalysis(skill) as analysis">
+      <h3>Analysis</h3>
+      <div class="analysis-tags">
+        <mat-chip *ngFor="let tag of analysis" class="analysis-tag">{{ tag }}</mat-chip>
+      </div>
+    </div>
+  </div>
+
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-button mat-dialog-close>Close</button>
+  </div>
+</div>

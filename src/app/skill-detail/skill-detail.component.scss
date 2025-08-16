@@ -1,0 +1,161 @@
+.skill-detail-dialog {
+  max-width: 600px;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.dialog-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.dialog-content {
+  padding: 0 24px;
+}
+
+.skill-type-badge {
+  margin-bottom: 20px;
+}
+
+.skill-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 12px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.description-section {
+  margin-bottom: 24px;
+}
+
+.description-section h3 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.description {
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.skill-analysis h3 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.analysis-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.analysis-tag {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.dialog-actions {
+  padding: 16px 24px;
+  justify-content: flex-end;
+}
+
+/* Skill Type Colors */
+.skill-type-physical {
+  background-color: #ffebee;
+  color: #c62828;
+}
+.skill-type-magic {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+.skill-type-support {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+.skill-type-direct {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+.skill-type-fixed {
+  background-color: #fafafa;
+  color: #424242;
+}
+
+/* Attribute Colors */
+.attribute-fire {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+.attribute-water {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+.attribute-earth {
+  background-color: #efebe9;
+  color: #5d4037;
+}
+.attribute-wind {
+  background-color: #f1f8e9;
+  color: #689f38;
+}
+.attribute-electric {
+  background-color: #fff9c4;
+  color: #f57f17;
+}
+.attribute-plant {
+  background-color: #e8f5e8;
+  color: #388e3c;
+}
+.attribute-light {
+  background-color: #fffde7;
+  color: #fbc02d;
+}
+.attribute-dark {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+.attribute-neutral {
+  background-color: #fafafa;
+  color: #616161;
+}
+
+.inheritable-yes {
+  background-color: #e8f5e8;
+  color: #2e7d2e;
+}
+.inheritable-no {
+  background-color: #ffebee;
+  color: #c62828;
+}
