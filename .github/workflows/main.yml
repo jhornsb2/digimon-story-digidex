@@ -42,8 +42,8 @@ jobs:
       
       # Builds the application
       - name: Build Application
-        run: ng build --prod --base-href="/digimon-story-digidex/"
-        
+        run: ng build --base-href="/digimon-story-digidex/" --configuration production
+
       # Tests the application
       - name: Test Application
         run: ng test --browsers=ChromeHeadless --watch=false --code-coverage
