@@ -51,8 +51,8 @@
         <mat-card-header>
           <mat-card-title>{{ skill.name }}</mat-card-title>
           <mat-card-subtitle>
-            <mat-chip [class]="'skill-type-' + skillTypes[skill.skillType].toString().toLowerCase()">
-              {{ skillTypes[skill.skillType] }}
+            <mat-chip [class]="getSkillTypeClass(skill.skillType)">
+              {{ getSkillTypeName(skill.skillType) }}
             </mat-chip>
           </mat-card-subtitle>
         </mat-card-header>
@@ -71,8 +71,8 @@
             }
             <div class="stat">
               <span class="label">Attribute:</span>
-              <mat-chip [class]="'attribute-' + attributes[skill.attribute].toString().toLowerCase()">
-                {{ attributes[skill.attribute] }}
+              <mat-chip [class]="getAttributeClass(skill.attribute)">
+                {{ getAttributeName(skill.attribute) }}
               </mat-chip>
             </div>
           </div>

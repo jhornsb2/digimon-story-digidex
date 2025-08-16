@@ -37,8 +37,9 @@ export class SkillListComponent implements OnInit {
   selectedAttribute = '';
   selectedInheritable = '';
 
-  skillTypes = Object.values(SkillType);
-  attributes = Object.values(Attribute);
+  // Get string values only, filtering out numeric keys
+  skillTypes = Object.values(SkillType).filter(value => typeof value === 'string');
+  attributes = Object.values(Attribute).filter(value => typeof value === 'string');
 
   constructor(private readonly dialog: MatDialog) {}
 
@@ -86,5 +87,22 @@ export class SkillListComponent implements OnInit {
       event.preventDefault(); // Prevent default scrolling behavior for Space
       this.openSkillDetail(skill);
     }
+  }
+
+  // Helper methods for display
+  getSkillTypeName(skillType: SkillType): string {
+    return SkillType[skillType];
+  }
+
+  getAttributeName(attribute: Attribute): string {
+    return Attribute[attribute];
+  }
+
+  getSkillTypeClass(skillType: SkillType): string {
+    return 'skill-type-' + SkillType[skillType].toLowerCase().replace(/\s+/g, '-');
+  }
+
+  getAttributeClass(attribute: Attribute): string {
+    return 'attribute-' + Attribute[attribute].toLowerCase().replace(/\s+/g, '-');
   }
 }
